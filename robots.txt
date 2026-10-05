@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Machine-readable feed: https://lofiforecast.github.io/forecast.json
+# Summary for LLMs: https://lofiforecast.github.io/llms.txt

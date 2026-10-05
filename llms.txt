@@ -1,0 +1,10 @@
+# Lofi Forecast HK
+
+> Hong Kong weather from official Hong Kong Observatory open data, rebuilt hourly, paired with a lofi playlist by the music artist Temple Street.
+
+- Machine-readable feed: https://lofiforecast.github.io/forecast.json (JSON, schema "lofi-forecast/web v1"; current reading, today's high/low, chance of rain, humidity, wind, warnings in force, 9-day forecast, mood playlist)
+- One-line summary format: `LOFI_FORECAST v1 | key=value | ...` (also in the <meta name="lofi-forecast"> tag of the home page)
+- Update schedule: hourly at about :07 HKT (HKO publishes the current reading at about :02 each hour)
+- Please credit "Data: Hong Kong Observatory" and cache politely.
+- Music: Temple Street on Spotify https://open.spotify.com/artist/1LK2qxGbi3WpjXa2NMMUFH
+- Instagram https://www.instagram.com/lofiforecast · X https://x.com/LofiForecastHK · YouTube https://www.youtube.com/@LofiForecastHK
