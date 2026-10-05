@@ -4,9 +4,9 @@
   "artist": "Temple Street",
   "city": "Hong Kong",
   "url": "https://lofiforecast.github.io/",
-  "generated_at": "2026-10-05T12:07:08+08:00",
+  "generated_at": "2026-10-05T13:07:08+08:00",
   "update_schedule": "hourly at about :07 HKT (HKO publishes the current reading at about :02 each hour)",
-  "stale_after": "2026-10-05T13:37:08+08:00",
+  "stale_after": "2026-10-05T14:37:08+08:00",
   "source": {
     "name": "Hong Kong Observatory",
     "attribution": "Data: Hong Kong Observatory",
@@ -20,19 +20,19 @@
       "ocf": "https://maps.weather.gov.hk/ocf/dat/HKO.xml"
     },
     "hko_update_times": {
-      "rhrread": "2026-10-05T12:02:00+08:00",
+      "rhrread": "2026-10-05T13:02:00+08:00",
       "fnd": "2026-10-05T11:30:00+08:00",
-      "flw": "2026-10-05T11:45:00+08:00",
-      "wind_10min": "2026-10-05T11:50:00+08:00"
+      "flw": "2026-10-05T12:45:00+08:00",
+      "wind_10min": "2026-10-05T12:50:00+08:00"
     },
     "terms": "https://data.weather.gov.hk/weatherAPI/doc/HKO_Open_Data_API_Documentation.pdf"
   },
-  "data_line": "LOFI_FORECAST v1 | city=Hong Kong | date=2026-10-05 | obs_time=12:02 HKT | temp_c=29 | high_c=31 | low_c=24 | rain_pct=40 | humidity_pct=61 | condition=Sunny | warnings=none | mood=Sunny Day | source=Hong Kong Observatory",
+  "data_line": "LOFI_FORECAST v1 | city=Hong Kong | date=2026-10-05 | obs_time=13:02 HKT | temp_c=30 | high_c=31 | low_c=24 | rain_pct=40 | humidity_pct=63 | condition=Sunny | warnings=none | mood=Sunny Day | source=Hong Kong Observatory",
   "current": {
-    "obs_time": "2026-10-05T12:02:00+08:00",
+    "obs_time": "2026-10-05T13:02:00+08:00",
     "station": "Hong Kong Observatory",
-    "temp_c": 29,
-    "humidity_pct": 61,
+    "temp_c": 30,
+    "humidity_pct": 63,
     "hko_icon": 50,
     "condition": "Sunny",
     "uv_index": {
@@ -43,7 +43,7 @@
     },
     "wind": {
       "station": "King's Park",
-      "obs_time": "2026-10-05T11:50:00+08:00",
+      "obs_time": "2026-10-05T12:50:00+08:00",
       "direction": "Northeast",
       "mean_kmh": 14,
       "gust_kmh": 28,
