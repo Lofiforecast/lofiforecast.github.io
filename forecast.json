@@ -4,9 +4,9 @@
   "artist": "Temple Street",
   "city": "Hong Kong",
   "url": "https://lofiforecast.github.io/",
-  "generated_at": "2026-10-06T00:07:08+08:00",
+  "generated_at": "2026-10-06T01:07:08+08:00",
   "update_schedule": "hourly at about :07 HKT (HKO publishes the current reading at about :02 each hour)",
-  "stale_after": "2026-10-06T01:37:08+08:00",
+  "stale_after": "2026-10-06T02:37:08+08:00",
   "source": {
     "name": "Hong Kong Observatory",
     "attribution": "Data: Hong Kong Observatory",
@@ -20,28 +20,28 @@
       "ocf": "https://maps.weather.gov.hk/ocf/dat/HKO.xml"
     },
     "hko_update_times": {
-      "rhrread": "2026-10-06T00:02:00+08:00",
-      "fnd": "2026-10-06T00:00:00+08:00",
-      "flw": "2026-10-06T00:00:00+08:00",
-      "wind_10min": "2026-10-05T23:50:00+08:00"
+      "rhrread": "2026-10-06T01:02:00+08:00",
+      "fnd": "2026-10-06T00:50:00+08:00",
+      "flw": "2026-10-06T00:45:00+08:00",
+      "wind_10min": "2026-10-06T00:50:00+08:00"
     },
     "terms": "https://data.weather.gov.hk/weatherAPI/doc/HKO_Open_Data_API_Documentation.pdf"
   },
-  "data_line": "LOFI_FORECAST v1 | city=Hong Kong | date=2026-10-06 | obs_time=00:02 HKT | temp_c=25 | high_c=29 | low_c=23 | rain_pct=20 | humidity_pct=66 | condition=Mainly cloudy | warnings=none | mood=Cool & Dry | source=Hong Kong Observatory",
+  "data_line": "LOFI_FORECAST v1 | city=Hong Kong | date=2026-10-06 | obs_time=01:02 HKT | temp_c=25 | high_c=29 | low_c=23 | rain_pct=20 | humidity_pct=65 | condition=Mainly cloudy | warnings=none | mood=Cool & Dry | source=Hong Kong Observatory",
   "current": {
-    "obs_time": "2026-10-06T00:02:00+08:00",
+    "obs_time": "2026-10-06T01:02:00+08:00",
     "station": "Hong Kong Observatory",
     "temp_c": 25,
-    "humidity_pct": 66,
+    "humidity_pct": 65,
     "hko_icon": 76,
     "condition": "Mainly cloudy",
     "uv_index": null,
     "wind": {
       "station": "King's Park",
-      "obs_time": "2026-10-05T23:50:00+08:00",
+      "obs_time": "2026-10-06T00:50:00+08:00",
       "direction": "North",
-      "mean_kmh": 12,
-      "gust_kmh": 24,
+      "mean_kmh": 14,
+      "gust_kmh": 28,
       "source": "HKO latest 10-minute mean wind (https://data.weather.gov.hk/weatherAPI/hko_data/regional-weather/latest_10min_wind.csv)"
     },
     "hko_message": null,
@@ -55,9 +55,9 @@
     "chance_of_rain": "20%",
     "chance_of_rain_source": "HKO OCF daily chance of rain (HKO)",
     "psr": "Low",
-    "wind_forecast": "North to northeast force 4 to 5, occasionally force 6 on high ground at first.",
-    "local_forecast": "Mainly cloudy and dry. Slightly cooler in the morning. The minimum temperature will be about 23 degrees in the urban areas, and a couple of degrees lower in the New Territories. Sunny periods during the day with a maximum temperature of around 29 degrees. Moderate to fresh north to northeasterly winds, occasionally strong on high ground at first.",
-    "forecast_period": "Weather forecast for Hong Kong (Tuesday, 6 Oct 2026)",
+    "wind_forecast": "North to northeast force 4 to 5, occasionally force 6 offshore and on high ground at first.",
+    "local_forecast": "Mainly cloudy and dry. Slightly cooler in the morning. The minimum temperature will be about 23 degrees in the urban areas, and a couple of degrees lower in the New Territories. Sunny periods during the day with a maximum temperature of around 29 degrees. Moderate to fresh north to northeasterly winds, occasionally strong offshore and on high ground at first.",
+    "forecast_period": "Weather forecast for Hong Kong",
     "outlook": "Windier and slightly cooler in the morning in the following couple of days. Fine and dry with temperatures rising gradually in the latter part of this week to early next week. The temperature difference between day and night will be relatively large over inland areas.",
     "general_situation": "A dry northeast monsoon affected Guangdong yesterday. Locally, the weather was mainly fine. It was slightly cooler in the morning. Temperatures over the territory were generally about two degrees lower than those of the day before. It was dry during the day. The relative humidity over most parts of the territory once fell to around 60 per cent. The northeast monsoon will continue to bring mainly fine weather to the coast of Guangdong in the next couple of days. It will be windier and slightly cooler in the morning over the region.",
     "tropical_cyclone_info": null
@@ -99,7 +99,7 @@
       "icon_label": "Dry",
       "psr": "Low",
       "weather": "Mainly cloudy and dry. Slightly cooler in the morning. Sunny periods during the day.",
-      "wind": "North to northeast force 4 to 5, occasionally force 6 on high ground at first."
+      "wind": "North to northeast force 4 to 5, occasionally force 6 offshore and on high ground at first."
     },
     {
       "date": "2026-10-07",
