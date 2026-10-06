@@ -4,9 +4,9 @@
   "artist": "Temple Street",
   "city": "Hong Kong",
   "url": "https://lofiforecast.github.io/",
-  "generated_at": "2026-10-06T17:07:08+08:00",
+  "generated_at": "2026-10-06T18:07:08+08:00",
   "update_schedule": "hourly at about :07 HKT (HKO publishes the current reading at about :02 each hour)",
-  "stale_after": "2026-10-06T18:37:08+08:00",
+  "stale_after": "2026-10-06T19:37:08+08:00",
   "source": {
     "name": "Hong Kong Observatory",
     "attribution": "Data: Hong Kong Observatory",
@@ -20,33 +20,33 @@
       "ocf": "https://maps.weather.gov.hk/ocf/dat/HKO.xml"
     },
     "hko_update_times": {
-      "rhrread": "2026-10-06T17:02:00+08:00",
+      "rhrread": "2026-10-06T18:02:00+08:00",
       "fnd": "2026-10-06T16:30:00+08:00",
-      "flw": "2026-10-06T16:45:00+08:00",
-      "wind_10min": "2026-10-06T16:50:00+08:00"
+      "flw": "2026-10-06T17:45:00+08:00",
+      "wind_10min": "2026-10-06T17:50:00+08:00"
     },
     "terms": "https://data.weather.gov.hk/weatherAPI/doc/HKO_Open_Data_API_Documentation.pdf"
   },
-  "data_line": "LOFI_FORECAST v1 | city=Hong Kong | date=2026-10-06 | obs_time=17:02 HKT | temp_c=27 | high_c=28 | low_c=23 | rain_pct=20 | humidity_pct=62 | condition=Sunny periods | warnings=none | mood=Sunny Day | source=Hong Kong Observatory",
+  "data_line": "LOFI_FORECAST v1 | city=Hong Kong | date=2026-10-06 | obs_time=18:02 HKT | temp_c=26 | high_c=28 | low_c=23 | rain_pct=20 | humidity_pct=63 | condition=Mainly cloudy | warnings=none | mood=Grey Sky Cafe | source=Hong Kong Observatory",
   "current": {
-    "obs_time": "2026-10-06T17:02:00+08:00",
+    "obs_time": "2026-10-06T18:02:00+08:00",
     "station": "Hong Kong Observatory",
-    "temp_c": 27,
-    "humidity_pct": 62,
-    "hko_icon": 51,
-    "condition": "Sunny periods",
+    "temp_c": 26,
+    "humidity_pct": 63,
+    "hko_icon": 76,
+    "condition": "Mainly cloudy",
     "uv_index": {
-      "value": 0.7,
+      "value": 0.1,
       "desc": "low",
       "place": "King's Park",
       "period": "During the past hour"
     },
     "wind": {
       "station": "King's Park",
-      "obs_time": "2026-10-06T16:50:00+08:00",
-      "direction": "North",
-      "mean_kmh": 11,
-      "gust_kmh": 19,
+      "obs_time": "2026-10-06T17:50:00+08:00",
+      "direction": "Northeast",
+      "mean_kmh": 8,
+      "gust_kmh": 16,
       "source": "HKO latest 10-minute mean wind (https://data.weather.gov.hk/weatherAPI/hko_data/regional-weather/latest_10min_wind.csv)"
     },
     "hko_message": null,
@@ -72,13 +72,13 @@
     "recently_cancelled": []
   },
   "mood": {
-    "name": "Sunny Day",
-    "vibe": "sunny_bright",
+    "name": "Grey Sky Cafe",
+    "vibe": "cloudy_mellow",
     "why": [
-      "sunny/fine (icons [51], high 28)"
+      "cloudy (icons [76])"
     ],
-    "playlist_id": "1Ua1uV4TjGrHLcUdYoJz3L",
-    "playlist_url": "https://open.spotify.com/playlist/1Ua1uV4TjGrHLcUdYoJz3L"
+    "playlist_id": "0OGqMG7schgqhJLD5neaYp",
+    "playlist_url": "https://open.spotify.com/playlist/0OGqMG7schgqhJLD5neaYp"
   },
   "radio_playlist_url": "https://open.spotify.com/playlist/36d2IehKB5C1TYZgQOuIch",
   "playlists": {
