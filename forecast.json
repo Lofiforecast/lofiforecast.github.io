@@ -4,9 +4,9 @@
   "artist": "Temple Street",
   "city": "Hong Kong",
   "url": "https://lofiforecast.github.io/",
-  "generated_at": "2026-10-06T23:07:08+08:00",
+  "generated_at": "2026-10-07T00:07:08+08:00",
   "update_schedule": "hourly at about :07 HKT (HKO publishes the current reading at about :02 each hour)",
-  "stale_after": "2026-10-07T00:37:08+08:00",
+  "stale_after": "2026-10-07T01:37:08+08:00",
   "source": {
     "name": "Hong Kong Observatory",
     "attribution": "Data: Hong Kong Observatory",
@@ -20,46 +20,46 @@
       "ocf": "https://maps.weather.gov.hk/ocf/dat/HKO.xml"
     },
     "hko_update_times": {
-      "rhrread": "2026-10-06T23:02:00+08:00",
-      "fnd": "2026-10-06T16:30:00+08:00",
-      "flw": "2026-10-06T22:45:00+08:00",
-      "wind_10min": "2026-10-06T22:50:00+08:00"
+      "rhrread": "2026-10-07T00:02:00+08:00",
+      "fnd": "2026-10-07T00:00:00+08:00",
+      "flw": "2026-10-07T00:00:00+08:00",
+      "wind_10min": "2026-10-06T23:50:00+08:00"
     },
     "terms": "https://data.weather.gov.hk/weatherAPI/doc/HKO_Open_Data_API_Documentation.pdf"
   },
-  "data_line": "LOFI_FORECAST v1 | city=Hong Kong | date=2026-10-06 | obs_time=23:02 HKT | temp_c=26 | high_c=28 | low_c=23 | rain_pct=20 | humidity_pct=53 | condition=Mainly cloudy | warnings=none | mood=After Dark | source=Hong Kong Observatory",
+  "data_line": "LOFI_FORECAST v1 | city=Hong Kong | date=2026-10-07 | obs_time=00:02 HKT | temp_c=26 | high_c=30 | low_c=23 | rain_pct=20 | humidity_pct=55 | condition=Mainly cloudy | warnings=none | mood=After Dark | source=Hong Kong Observatory",
   "current": {
-    "obs_time": "2026-10-06T23:02:00+08:00",
+    "obs_time": "2026-10-07T00:02:00+08:00",
     "station": "Hong Kong Observatory",
     "temp_c": 26,
-    "humidity_pct": 53,
+    "humidity_pct": 55,
     "hko_icon": 76,
     "condition": "Mainly cloudy",
     "uv_index": null,
     "wind": {
       "station": "King's Park",
-      "obs_time": "2026-10-06T22:50:00+08:00",
+      "obs_time": "2026-10-06T23:50:00+08:00",
       "direction": "Northeast",
       "mean_kmh": 12,
-      "gust_kmh": 24,
+      "gust_kmh": 19,
       "source": "HKO latest 10-minute mean wind (https://data.weather.gov.hk/weatherAPI/hko_data/regional-weather/latest_10min_wind.csv)"
     },
     "hko_message": null,
     "special_tips": null
   },
   "today": {
-    "date": "2026-10-06",
-    "high_c": 28,
+    "date": "2026-10-07",
+    "high_c": 30,
     "low_c": 23,
-    "high_low_source": "HKO OCF daily (HKO)",
+    "high_low_source": "HKO 9-day forecast (fnd)",
     "chance_of_rain": "20%",
     "chance_of_rain_source": "HKO OCF daily chance of rain (HKO)",
-    "psr": null,
-    "wind_forecast": null,
-    "local_forecast": "Mainly fine and dry. Cloudy periods in the morning and at night. Slightly cooler tomorrow morning. The minimum temperature will be about 23 degrees in the urban areas, and a couple of degrees lower in the New Territories. The maximum temperature will be around 30 degrees during the day. Moderate north to northeasterly winds, occasionally fresh tomorrow.",
-    "forecast_period": "Weather forecast for tonight and tomorrow",
+    "psr": "Low",
+    "wind_forecast": "North to northeast force 4, occasionally force 5.",
+    "local_forecast": "Mainly fine and dry. Cloudy periods in the morning and at night. Slightly cooler in the morning. The minimum temperature will be about 23 degrees in the urban areas, and a couple of degrees lower in the New Territories. The maximum temperature will be around 30 degrees during the day. Moderate north to northeasterly winds, occasionally fresh.",
+    "forecast_period": "Weather forecast for Hong Kong (Wednesday, 7 Oct 2026)",
     "outlook": "Windier on Thursday. Fine and dry with temperatures rising gradually in the latter part of this week to early next week. The temperature difference between day and night will be relatively large over inland areas.",
-    "general_situation": "A dry northeast monsoon is affecting Guangdong.",
+    "general_situation": "A dry northeast monsoon affected Guangdong yesterday. Locally, the weather was mainly cloudy and dry. It was slightly cooler in the morning. The minimum temperature recorded at the Observatory was 23.3 degrees, the lowest so far this autumn. There were sunny periods during the day. The northeast monsoon is expected to bring mainly fine weather to the coast of Guangdong today and tomorrow. It will be windier over the region.",
     "tropical_cyclone_info": null
   },
   "warnings": {
@@ -70,8 +70,8 @@
     "name": "After Dark",
     "vibe": "evening_night_fine",
     "why": [
-      "cloudy (icons [76])",
-      "evening/night (23:00) -> night vibe"
+      "cloudy (icons [76, 81])",
+      "evening/night (00:00) -> night vibe"
     ],
     "playlist_id": "4xqydzExGZlPDabPYBw5Q4",
     "playlist_url": "https://open.spotify.com/playlist/4xqydzExGZlPDabPYBw5Q4"
