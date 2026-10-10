@@ -413,7 +413,7 @@ def page(o, line, obs, gen, in_force, cancelled, flw, fnd):
     socials = ''.join(f'<a href="{u}" rel="noopener" target="_blank"><b>{e(n)}</b><span>{e(h)}</span></a>'
                       for n, u, h in LINKS.values())
     jsonld = json.dumps({'@context': 'https://schema.org', '@type': 'WebSite', 'name': 'Lofi Forecast HK', 'url': SITE_URL,
-                         'description': 'Hong Kong weather from the Hong Kong Observatory, updated hourly, with lofi music by Temple Street.',
+                         'description': 'Zone out to the forecast — like the weather channel you left on. Hong Kong weather from the Hong Kong Observatory, updated hourly, with lofi music by Temple Street. Made possible by Weather Bot.',
                          'sameAs': [v[1] for v in LINKS.values()]}, ensure_ascii=False).replace('</', '<\\/')
     alert = ''
     if sev_any:
@@ -457,6 +457,7 @@ def page(o, line, obs, gen, in_force, cancelled, flw, fnd):
     <span class="updated">Updated <span class="js-obs">{upd}</span> HKT</span>
   </div>
 </header>
+<p class="tagline wrap">Zone out to the forecast &mdash; like the weather channel you left on.</p>
 
 <main id="top">
 <section class="hero wrap" aria-labelledby="now-h">
@@ -548,6 +549,14 @@ def page(o, line, obs, gen, in_force, cancelled, flw, fnd):
   <nav class="follow-links" aria-label="Lofi Forecast elsewhere">{socials}</nav>
 </section>
 
+<section class="about wrap" aria-labelledby="about-h">
+  <div class="about-card">
+    <p class="eyebrow">About</p>
+    <h2 id="about-h">Why Lofi Forecast</h2>
+    <p>Lofi Forecast started from a simple memory: days with the weather channel on the TV, soft music in the background, zoning out. Avi rebuilt that feeling &mdash; real weather data, Temple Street music, a retro TV look. Made possible by Weather Bot.</p>
+  </div>
+</section>
+
 <section class="for-bots wrap" aria-labelledby="bots-h">
   <div class="bots-card">
     <div class="bots-intro">
@@ -568,7 +577,7 @@ def page(o, line, obs, gen, in_force, cancelled, flw, fnd):
 
 <footer class="site-footer">
   <div class="wrap footer-inner">
-    <div class="foot-brand"><img src="assets/sun-logo.png" alt="" width="40" height="40"><div><b>LOFI FORECAST</b><span>Hong Kong weather &middot; music by Temple Street</span></div></div>
+    <div class="foot-brand"><img src="assets/sun-logo.png" alt="" width="40" height="40"><div><b>LOFI FORECAST</b><span>Zone out to the forecast &middot; music by Temple Street &middot; made possible by Weather Bot</span></div></div>
     <nav class="foot-links" aria-label="Social links">
       <a href="{LINKS['instagram'][1]}" rel="noopener">Instagram</a>
       <a href="{LINKS['x'][1]}" rel="noopener">X</a>
