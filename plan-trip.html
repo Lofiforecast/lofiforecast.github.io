@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Plan a trip &middot; Lofi Forecast</title>
-<meta name="description" content="Useful stream: 7–16 day outlooks and typical monthly climate for travel packing. Not a 3-month daily forecast.">
+<title>Plan a trip &middot; Weather outlook &amp; climate &middot; Lofi Forecast</title>
+<meta name="description" content="Search any city for a near-term weather outlook and typical climate for your travel month — highs, lows, rain, and what to pack.">
 <link rel="canonical" href="https://lofiforecast.github.io/plan-trip.html">
 <meta name="theme-color" content="#14213d">
-<meta property="og:title" content="Plan a trip · Lofi Forecast">
-<meta property="og:description" content="Near-term outlooks plus typical monthly climate — what to expect and what to pack.">
+<meta property="og:title" content="Plan a trip · Weather outlook & climate · Lofi Forecast">
+<meta property="og:description" content="Search any city — near-term outlook plus typical monthly climate for travel. What to expect and what to pack.">
 <meta property="og:url" content="https://lofiforecast.github.io/plan-trip.html">
 <link rel="icon" href="assets/sun-logo.png">
-<link rel="stylesheet" href="css/style.css?v=20261019world">
+<link rel="stylesheet" href="css/style.css?v=20261019plan">
 </head>
 <body>
 <header class="site-header wrap">
@@ -31,18 +31,21 @@
   <a href="regional.html">Regional</a>
   <a class="is-on" href="plan-trip.html" aria-current="page">Plan a trip</a>
 </nav>
-<p class="tagline wrap">Useful stream &mdash; outlooks and climate, beside the chill channel.</p>
+<p class="tagline wrap">Search any city — near-term outlook and typical climate for your travel month.</p>
 
 <main id="top">
 <section class="wrap" style="margin-top:8px">
   <div class="section-head">
     <h2>Plan a trip</h2>
-    <p>Near-term from MET Norway &middot; farther out = typical climate, not a daily forecast</p>
+    <p>~2-week outlook &middot; farther out = typical climate, not a daily forecast</p>
   </div>
   <div class="plan-panel">
     <form class="plan-search" id="plan-form" autocomplete="off">
-      <input type="search" id="city-q" name="q" placeholder="Search a city…" aria-label="City search" list="city-list">
-      <datalist id="city-list"></datalist>
+      <div class="plan-search-field">
+        <input type="search" id="city-q" name="q" placeholder="Any city — Taipei, Reykjavik, Cusco…" aria-label="City search" list="city-list" aria-autocomplete="list" aria-controls="geo-drop">
+        <datalist id="city-list"></datalist>
+        <ul class="geo-drop" id="geo-drop" role="listbox" hidden></ul>
+      </div>
       <select id="month" aria-label="Travel month">
         <option value="1">January</option><option value="2">February</option><option value="3">March</option>
         <option value="4">April</option><option value="5">May</option><option value="6">June</option>
@@ -51,6 +54,7 @@
       </select>
       <button type="submit">Show</button>
     </form>
+    <p class="plan-status" id="plan-status" role="status" aria-live="polite"></p>
     <ul class="suggest" id="suggest" aria-label="Quick picks"></ul>
 
     <div class="plan-result" id="plan-result">
@@ -73,8 +77,9 @@
 <section class="about wrap" aria-labelledby="about-h">
   <div class="about-card">
     <p class="eyebrow">How this works</p>
-    <h2 id="about-h">Two streams</h2>
-    <p>Home and World stay the chill channel you leave on. Plan a trip is the useful stream: a ~2-week MET outlook when you’re going soon, and honest climate normals when you’re thinking months ahead. We never invent day-by-day weather three months out.</p>
+    <h2 id="about-h">Outlook now, climate later</h2>
+    <p>Search any place on Earth. For the next ~2 weeks we pull a daily outlook (highs, lows, rain). For months ahead we show <b>typical climate</b> for that month — average temperatures and rainfall from recent years — so you know what to pack. We never invent day-by-day weather three months out.</p>
+    <p class="about-foot">Live channel and music live on <a href="./">Home</a>.</p>
   </div>
 </section>
 </main>
@@ -87,9 +92,9 @@
       <a href="world.html">World</a>
       <a href="plan-trip.html">Plan a trip</a>
     </nav>
-    <p class="credit">Outlook: MET Norway &middot; Climate: Open-Meteo archive (ERA5) &middot; <a href="world-forecast.json">world-forecast.json</a> · <a href="climate-normals.json">climate-normals.json</a></p>
+    <p class="credit">Outlook: Open-Meteo / MET Norway &middot; Climate: Open-Meteo archive (ERA5) &middot; Places: Open-Meteo Geocoding &middot; <a href="world-forecast.json">world-forecast.json</a> · <a href="climate-normals.json">climate-normals.json</a></p>
   </div>
 </footer>
-<script src="js/plan-trip.js?v=20261019"></script>
+<script src="js/plan-trip.js?v=20261019plan"></script>
 </body>
 </html>
