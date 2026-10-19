@@ -1,0 +1,1429 @@
+{
+  "source": "Open-Meteo Archive API daily aggregates 2015–2019 (ERA5), open-meteo.com; typical monthly climate — not a forecast",
+  "label": "Typical for this month — climate normals, not a day-by-day forecast",
+  "fetched_utc": "2026-10-19T03:16:12Z",
+  "cities": {
+    "hongkong": {
+      "name": "Hong Kong",
+      "lat": 22.3022,
+      "lon": 114.1742,
+      "months": {
+        "1": {
+          "typical_high_c": 18,
+          "typical_low_c": 13,
+          "typical_precip_mm": 64,
+          "rain_note": "Mixed rain chances"
+        },
+        "2": {
+          "typical_high_c": 19,
+          "typical_low_c": 14,
+          "typical_precip_mm": 34,
+          "rain_note": "Mixed rain chances"
+        },
+        "3": {
+          "typical_high_c": 22,
+          "typical_low_c": 17,
+          "typical_precip_mm": 91,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "4": {
+          "typical_high_c": 25,
+          "typical_low_c": 21,
+          "typical_precip_mm": 144,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "5": {
+          "typical_high_c": 27,
+          "typical_low_c": 24,
+          "typical_precip_mm": 265,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "6": {
+          "typical_high_c": 29,
+          "typical_low_c": 26,
+          "typical_precip_mm": 398,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "7": {
+          "typical_high_c": 30,
+          "typical_low_c": 26,
+          "typical_precip_mm": 313,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "8": {
+          "typical_high_c": 30,
+          "typical_low_c": 26,
+          "typical_precip_mm": 405,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "9": {
+          "typical_high_c": 29,
+          "typical_low_c": 25,
+          "typical_precip_mm": 219,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "10": {
+          "typical_high_c": 27,
+          "typical_low_c": 22,
+          "typical_precip_mm": 149,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "11": {
+          "typical_high_c": 24,
+          "typical_low_c": 19,
+          "typical_precip_mm": 50,
+          "rain_note": "Mixed rain chances"
+        },
+        "12": {
+          "typical_high_c": 20,
+          "typical_low_c": 15,
+          "typical_precip_mm": 31,
+          "rain_note": "Mixed rain chances"
+        }
+      }
+    },
+    "tokyo": {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "months": {
+        "1": {
+          "typical_high_c": 9,
+          "typical_low_c": -1,
+          "typical_precip_mm": 59,
+          "rain_note": "Mixed rain chances"
+        },
+        "2": {
+          "typical_high_c": 10,
+          "typical_low_c": 0,
+          "typical_precip_mm": 54,
+          "rain_note": "Mixed rain chances"
+        },
+        "3": {
+          "typical_high_c": 13,
+          "typical_low_c": 4,
+          "typical_precip_mm": 126,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "4": {
+          "typical_high_c": 18,
+          "typical_low_c": 9,
+          "typical_precip_mm": 101,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "5": {
+          "typical_high_c": 24,
+          "typical_low_c": 15,
+          "typical_precip_mm": 103,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "6": {
+          "typical_high_c": 25,
+          "typical_low_c": 18,
+          "typical_precip_mm": 181,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "7": {
+          "typical_high_c": 29,
+          "typical_low_c": 23,
+          "typical_precip_mm": 169,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "8": {
+          "typical_high_c": 30,
+          "typical_low_c": 24,
+          "typical_precip_mm": 144,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "9": {
+          "typical_high_c": 26,
+          "typical_low_c": 20,
+          "typical_precip_mm": 242,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "10": {
+          "typical_high_c": 21,
+          "typical_low_c": 14,
+          "typical_precip_mm": 226,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "11": {
+          "typical_high_c": 16,
+          "typical_low_c": 8,
+          "typical_precip_mm": 113,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "12": {
+          "typical_high_c": 11,
+          "typical_low_c": 3,
+          "typical_precip_mm": 72,
+          "rain_note": "Mixed rain chances"
+        }
+      }
+    },
+    "sydney": {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093,
+      "months": {
+        "1": {
+          "typical_high_c": 27,
+          "typical_low_c": 20,
+          "typical_precip_mm": 82,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "2": {
+          "typical_high_c": 26,
+          "typical_low_c": 19,
+          "typical_precip_mm": 61,
+          "rain_note": "Mixed rain chances"
+        },
+        "3": {
+          "typical_high_c": 25,
+          "typical_low_c": 18,
+          "typical_precip_mm": 117,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "4": {
+          "typical_high_c": 23,
+          "typical_low_c": 15,
+          "typical_precip_mm": 88,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "5": {
+          "typical_high_c": 20,
+          "typical_low_c": 11,
+          "typical_precip_mm": 25,
+          "rain_note": "Mixed rain chances"
+        },
+        "6": {
+          "typical_high_c": 17,
+          "typical_low_c": 10,
+          "typical_precip_mm": 94,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "7": {
+          "typical_high_c": 17,
+          "typical_low_c": 8,
+          "typical_precip_mm": 28,
+          "rain_note": "Mixed rain chances"
+        },
+        "8": {
+          "typical_high_c": 18,
+          "typical_low_c": 8,
+          "typical_precip_mm": 41,
+          "rain_note": "Mixed rain chances"
+        },
+        "9": {
+          "typical_high_c": 20,
+          "typical_low_c": 10,
+          "typical_precip_mm": 46,
+          "rain_note": "Mixed rain chances"
+        },
+        "10": {
+          "typical_high_c": 22,
+          "typical_low_c": 14,
+          "typical_precip_mm": 55,
+          "rain_note": "Mixed rain chances"
+        },
+        "11": {
+          "typical_high_c": 24,
+          "typical_low_c": 16,
+          "typical_precip_mm": 63,
+          "rain_note": "Mixed rain chances"
+        },
+        "12": {
+          "typical_high_c": 26,
+          "typical_low_c": 18,
+          "typical_precip_mm": 49,
+          "rain_note": "Mixed rain chances"
+        }
+      }
+    },
+    "losangeles": {
+      "name": "Los Angeles",
+      "lat": 34.0522,
+      "lon": -118.2437,
+      "months": {
+        "1": {
+          "typical_high_c": 19,
+          "typical_low_c": 8,
+          "typical_precip_mm": 97,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "2": {
+          "typical_high_c": 21,
+          "typical_low_c": 8,
+          "typical_precip_mm": 53,
+          "rain_note": "Mixed rain chances"
+        },
+        "3": {
+          "typical_high_c": 23,
+          "typical_low_c": 10,
+          "typical_precip_mm": 48,
+          "rain_note": "Mixed rain chances"
+        },
+        "4": {
+          "typical_high_c": 25,
+          "typical_low_c": 12,
+          "typical_precip_mm": 7,
+          "rain_note": "Typically dry"
+        },
+        "5": {
+          "typical_high_c": 24,
+          "typical_low_c": 13,
+          "typical_precip_mm": 15,
+          "rain_note": "Typically dry"
+        },
+        "6": {
+          "typical_high_c": 29,
+          "typical_low_c": 16,
+          "typical_precip_mm": 1,
+          "rain_note": "Typically dry"
+        },
+        "7": {
+          "typical_high_c": 32,
+          "typical_low_c": 18,
+          "typical_precip_mm": 3,
+          "rain_note": "Typically dry"
+        },
+        "8": {
+          "typical_high_c": 32,
+          "typical_low_c": 18,
+          "typical_precip_mm": 1,
+          "rain_note": "Typically dry"
+        },
+        "9": {
+          "typical_high_c": 31,
+          "typical_low_c": 18,
+          "typical_precip_mm": 6,
+          "rain_note": "Typically dry"
+        },
+        "10": {
+          "typical_high_c": 29,
+          "typical_low_c": 15,
+          "typical_precip_mm": 15,
+          "rain_note": "Typically dry"
+        },
+        "11": {
+          "typical_high_c": 24,
+          "typical_low_c": 11,
+          "typical_precip_mm": 24,
+          "rain_note": "Mixed rain chances"
+        },
+        "12": {
+          "typical_high_c": 19,
+          "typical_low_c": 8,
+          "typical_precip_mm": 54,
+          "rain_note": "Mixed rain chances"
+        }
+      }
+    },
+    "mexicocity": {
+      "name": "Mexico City",
+      "lat": 19.4326,
+      "lon": -99.1332,
+      "months": {
+        "1": {
+          "typical_high_c": 21,
+          "typical_low_c": 7,
+          "typical_precip_mm": 14,
+          "rain_note": "Typically dry"
+        },
+        "2": {
+          "typical_high_c": 23,
+          "typical_low_c": 8,
+          "typical_precip_mm": 17,
+          "rain_note": "Typically dry"
+        },
+        "3": {
+          "typical_high_c": 24,
+          "typical_low_c": 10,
+          "typical_precip_mm": 48,
+          "rain_note": "Mixed rain chances"
+        },
+        "4": {
+          "typical_high_c": 26,
+          "typical_low_c": 11,
+          "typical_precip_mm": 53,
+          "rain_note": "Mixed rain chances"
+        },
+        "5": {
+          "typical_high_c": 26,
+          "typical_low_c": 13,
+          "typical_precip_mm": 94,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "6": {
+          "typical_high_c": 23,
+          "typical_low_c": 13,
+          "typical_precip_mm": 181,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "7": {
+          "typical_high_c": 22,
+          "typical_low_c": 12,
+          "typical_precip_mm": 232,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "8": {
+          "typical_high_c": 23,
+          "typical_low_c": 13,
+          "typical_precip_mm": 216,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "9": {
+          "typical_high_c": 22,
+          "typical_low_c": 13,
+          "typical_precip_mm": 183,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "10": {
+          "typical_high_c": 21,
+          "typical_low_c": 12,
+          "typical_precip_mm": 100,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "11": {
+          "typical_high_c": 21,
+          "typical_low_c": 10,
+          "typical_precip_mm": 42,
+          "rain_note": "Mixed rain chances"
+        },
+        "12": {
+          "typical_high_c": 22,
+          "typical_low_c": 8,
+          "typical_precip_mm": 13,
+          "rain_note": "Typically dry"
+        }
+      }
+    },
+    "newyork": {
+      "name": "New York",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "months": {
+        "1": {
+          "typical_high_c": 3,
+          "typical_low_c": -5,
+          "typical_precip_mm": 97,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "2": {
+          "typical_high_c": 5,
+          "typical_low_c": -4,
+          "typical_precip_mm": 94,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "3": {
+          "typical_high_c": 8,
+          "typical_low_c": -1,
+          "typical_precip_mm": 103,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "4": {
+          "typical_high_c": 15,
+          "typical_low_c": 6,
+          "typical_precip_mm": 89,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "5": {
+          "typical_high_c": 21,
+          "typical_low_c": 12,
+          "typical_precip_mm": 103,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "6": {
+          "typical_high_c": 25,
+          "typical_low_c": 17,
+          "typical_precip_mm": 116,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "7": {
+          "typical_high_c": 29,
+          "typical_low_c": 20,
+          "typical_precip_mm": 134,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "8": {
+          "typical_high_c": 28,
+          "typical_low_c": 20,
+          "typical_precip_mm": 96,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "9": {
+          "typical_high_c": 25,
+          "typical_low_c": 17,
+          "typical_precip_mm": 104,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "10": {
+          "typical_high_c": 19,
+          "typical_low_c": 11,
+          "typical_precip_mm": 104,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "11": {
+          "typical_high_c": 12,
+          "typical_low_c": 3,
+          "typical_precip_mm": 77,
+          "rain_note": "Mixed rain chances"
+        },
+        "12": {
+          "typical_high_c": 7,
+          "typical_low_c": 0,
+          "typical_precip_mm": 110,
+          "rain_note": "Often showery — pack a light rain layer"
+        }
+      }
+    },
+    "saopaulo": {
+      "name": "São Paulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "months": {
+        "1": {
+          "typical_high_c": 27,
+          "typical_low_c": 19,
+          "typical_precip_mm": 212,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "2": {
+          "typical_high_c": 27,
+          "typical_low_c": 19,
+          "typical_precip_mm": 150,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "3": {
+          "typical_high_c": 26,
+          "typical_low_c": 18,
+          "typical_precip_mm": 154,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "4": {
+          "typical_high_c": 25,
+          "typical_low_c": 17,
+          "typical_precip_mm": 56,
+          "rain_note": "Mixed rain chances"
+        },
+        "5": {
+          "typical_high_c": 22,
+          "typical_low_c": 15,
+          "typical_precip_mm": 63,
+          "rain_note": "Mixed rain chances"
+        },
+        "6": {
+          "typical_high_c": 21,
+          "typical_low_c": 13,
+          "typical_precip_mm": 52,
+          "rain_note": "Mixed rain chances"
+        },
+        "7": {
+          "typical_high_c": 22,
+          "typical_low_c": 12,
+          "typical_precip_mm": 44,
+          "rain_note": "Mixed rain chances"
+        },
+        "8": {
+          "typical_high_c": 22,
+          "typical_low_c": 13,
+          "typical_precip_mm": 46,
+          "rain_note": "Mixed rain chances"
+        },
+        "9": {
+          "typical_high_c": 25,
+          "typical_low_c": 15,
+          "typical_precip_mm": 86,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "10": {
+          "typical_high_c": 26,
+          "typical_low_c": 16,
+          "typical_precip_mm": 89,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "11": {
+          "typical_high_c": 25,
+          "typical_low_c": 17,
+          "typical_precip_mm": 157,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "12": {
+          "typical_high_c": 27,
+          "typical_low_c": 18,
+          "typical_precip_mm": 138,
+          "rain_note": "Often showery — pack a light rain layer"
+        }
+      }
+    },
+    "london": {
+      "name": "London",
+      "lat": 51.5072,
+      "lon": -0.1276,
+      "months": {
+        "1": {
+          "typical_high_c": 8,
+          "typical_low_c": 1,
+          "typical_precip_mm": 58,
+          "rain_note": "Mixed rain chances"
+        },
+        "2": {
+          "typical_high_c": 8,
+          "typical_low_c": 2,
+          "typical_precip_mm": 43,
+          "rain_note": "Mixed rain chances"
+        },
+        "3": {
+          "typical_high_c": 11,
+          "typical_low_c": 4,
+          "typical_precip_mm": 55,
+          "rain_note": "Mixed rain chances"
+        },
+        "4": {
+          "typical_high_c": 14,
+          "typical_low_c": 5,
+          "typical_precip_mm": 40,
+          "rain_note": "Mixed rain chances"
+        },
+        "5": {
+          "typical_high_c": 17,
+          "typical_low_c": 8,
+          "typical_precip_mm": 57,
+          "rain_note": "Mixed rain chances"
+        },
+        "6": {
+          "typical_high_c": 20,
+          "typical_low_c": 12,
+          "typical_precip_mm": 61,
+          "rain_note": "Mixed rain chances"
+        },
+        "7": {
+          "typical_high_c": 23,
+          "typical_low_c": 14,
+          "typical_precip_mm": 55,
+          "rain_note": "Mixed rain chances"
+        },
+        "8": {
+          "typical_high_c": 22,
+          "typical_low_c": 13,
+          "typical_precip_mm": 65,
+          "rain_note": "Mixed rain chances"
+        },
+        "9": {
+          "typical_high_c": 19,
+          "typical_low_c": 11,
+          "typical_precip_mm": 58,
+          "rain_note": "Mixed rain chances"
+        },
+        "10": {
+          "typical_high_c": 15,
+          "typical_low_c": 8,
+          "typical_precip_mm": 48,
+          "rain_note": "Mixed rain chances"
+        },
+        "11": {
+          "typical_high_c": 11,
+          "typical_low_c": 5,
+          "typical_precip_mm": 62,
+          "rain_note": "Mixed rain chances"
+        },
+        "12": {
+          "typical_high_c": 10,
+          "typical_low_c": 4,
+          "typical_precip_mm": 64,
+          "rain_note": "Mixed rain chances"
+        }
+      }
+    },
+    "cairo": {
+      "name": "Cairo",
+      "lat": 30.0444,
+      "lon": 31.2357,
+      "months": {
+        "1": {
+          "typical_high_c": 19,
+          "typical_low_c": 8,
+          "typical_precip_mm": 4,
+          "rain_note": "Typically dry"
+        },
+        "2": {
+          "typical_high_c": 22,
+          "typical_low_c": 9,
+          "typical_precip_mm": 6,
+          "rain_note": "Typically dry"
+        },
+        "3": {
+          "typical_high_c": 25,
+          "typical_low_c": 12,
+          "typical_precip_mm": 3,
+          "rain_note": "Typically dry"
+        },
+        "4": {
+          "typical_high_c": 29,
+          "typical_low_c": 14,
+          "typical_precip_mm": 3,
+          "rain_note": "Typically dry"
+        },
+        "5": {
+          "typical_high_c": 34,
+          "typical_low_c": 19,
+          "typical_precip_mm": 0,
+          "rain_note": "Typically dry"
+        },
+        "6": {
+          "typical_high_c": 36,
+          "typical_low_c": 21,
+          "typical_precip_mm": 0,
+          "rain_note": "Typically dry"
+        },
+        "7": {
+          "typical_high_c": 37,
+          "typical_low_c": 23,
+          "typical_precip_mm": 0,
+          "rain_note": "Typically dry"
+        },
+        "8": {
+          "typical_high_c": 37,
+          "typical_low_c": 23,
+          "typical_precip_mm": 0,
+          "rain_note": "Typically dry"
+        },
+        "9": {
+          "typical_high_c": 35,
+          "typical_low_c": 22,
+          "typical_precip_mm": 0,
+          "rain_note": "Typically dry"
+        },
+        "10": {
+          "typical_high_c": 31,
+          "typical_low_c": 19,
+          "typical_precip_mm": 3,
+          "rain_note": "Typically dry"
+        },
+        "11": {
+          "typical_high_c": 26,
+          "typical_low_c": 15,
+          "typical_precip_mm": 3,
+          "rain_note": "Typically dry"
+        },
+        "12": {
+          "typical_high_c": 21,
+          "typical_low_c": 11,
+          "typical_precip_mm": 4,
+          "rain_note": "Typically dry"
+        }
+      }
+    },
+    "johannesburg": {
+      "name": "Johannesburg",
+      "lat": -26.2041,
+      "lon": 28.0473,
+      "months": {
+        "1": {
+          "typical_high_c": 26,
+          "typical_low_c": 15,
+          "typical_precip_mm": 120,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "2": {
+          "typical_high_c": 25,
+          "typical_low_c": 15,
+          "typical_precip_mm": 99,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "3": {
+          "typical_high_c": 24,
+          "typical_low_c": 13,
+          "typical_precip_mm": 80,
+          "rain_note": "Mixed rain chances"
+        },
+        "4": {
+          "typical_high_c": 22,
+          "typical_low_c": 11,
+          "typical_precip_mm": 41,
+          "rain_note": "Mixed rain chances"
+        },
+        "5": {
+          "typical_high_c": 20,
+          "typical_low_c": 7,
+          "typical_precip_mm": 14,
+          "rain_note": "Typically dry"
+        },
+        "6": {
+          "typical_high_c": 17,
+          "typical_low_c": 4,
+          "typical_precip_mm": 3,
+          "rain_note": "Typically dry"
+        },
+        "7": {
+          "typical_high_c": 17,
+          "typical_low_c": 4,
+          "typical_precip_mm": 7,
+          "rain_note": "Typically dry"
+        },
+        "8": {
+          "typical_high_c": 21,
+          "typical_low_c": 7,
+          "typical_precip_mm": 2,
+          "rain_note": "Typically dry"
+        },
+        "9": {
+          "typical_high_c": 25,
+          "typical_low_c": 10,
+          "typical_precip_mm": 15,
+          "rain_note": "Typically dry"
+        },
+        "10": {
+          "typical_high_c": 26,
+          "typical_low_c": 12,
+          "typical_precip_mm": 34,
+          "rain_note": "Mixed rain chances"
+        },
+        "11": {
+          "typical_high_c": 27,
+          "typical_low_c": 13,
+          "typical_precip_mm": 66,
+          "rain_note": "Mixed rain chances"
+        },
+        "12": {
+          "typical_high_c": 27,
+          "typical_low_c": 15,
+          "typical_precip_mm": 90,
+          "rain_note": "Often showery — pack a light rain layer"
+        }
+      }
+    },
+    "dubai": {
+      "name": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "months": {
+        "1": {
+          "typical_high_c": 24,
+          "typical_low_c": 15,
+          "typical_precip_mm": 5,
+          "rain_note": "Typically dry"
+        },
+        "2": {
+          "typical_high_c": 25,
+          "typical_low_c": 15,
+          "typical_precip_mm": 14,
+          "rain_note": "Typically dry"
+        },
+        "3": {
+          "typical_high_c": 28,
+          "typical_low_c": 18,
+          "typical_precip_mm": 18,
+          "rain_note": "Typically dry"
+        },
+        "4": {
+          "typical_high_c": 33,
+          "typical_low_c": 21,
+          "typical_precip_mm": 4,
+          "rain_note": "Typically dry"
+        },
+        "5": {
+          "typical_high_c": 37,
+          "typical_low_c": 25,
+          "typical_precip_mm": 0,
+          "rain_note": "Typically dry"
+        },
+        "6": {
+          "typical_high_c": 40,
+          "typical_low_c": 28,
+          "typical_precip_mm": 0,
+          "rain_note": "Typically dry"
+        },
+        "7": {
+          "typical_high_c": 42,
+          "typical_low_c": 30,
+          "typical_precip_mm": 0,
+          "rain_note": "Typically dry"
+        },
+        "8": {
+          "typical_high_c": 42,
+          "typical_low_c": 30,
+          "typical_precip_mm": 0,
+          "rain_note": "Typically dry"
+        },
+        "9": {
+          "typical_high_c": 39,
+          "typical_low_c": 28,
+          "typical_precip_mm": 1,
+          "rain_note": "Typically dry"
+        },
+        "10": {
+          "typical_high_c": 35,
+          "typical_low_c": 25,
+          "typical_precip_mm": 3,
+          "rain_note": "Typically dry"
+        },
+        "11": {
+          "typical_high_c": 30,
+          "typical_low_c": 20,
+          "typical_precip_mm": 6,
+          "rain_note": "Typically dry"
+        },
+        "12": {
+          "typical_high_c": 26,
+          "typical_low_c": 17,
+          "typical_precip_mm": 6,
+          "rain_note": "Typically dry"
+        }
+      }
+    },
+    "delhi": {
+      "name": "New Delhi",
+      "lat": 28.6139,
+      "lon": 77.209,
+      "months": {
+        "1": {
+          "typical_high_c": 20,
+          "typical_low_c": 8,
+          "typical_precip_mm": 24,
+          "rain_note": "Mixed rain chances"
+        },
+        "2": {
+          "typical_high_c": 24,
+          "typical_low_c": 11,
+          "typical_precip_mm": 23,
+          "rain_note": "Mixed rain chances"
+        },
+        "3": {
+          "typical_high_c": 29,
+          "typical_low_c": 16,
+          "typical_precip_mm": 36,
+          "rain_note": "Mixed rain chances"
+        },
+        "4": {
+          "typical_high_c": 36,
+          "typical_low_c": 22,
+          "typical_precip_mm": 18,
+          "rain_note": "Typically dry"
+        },
+        "5": {
+          "typical_high_c": 39,
+          "typical_low_c": 25,
+          "typical_precip_mm": 17,
+          "rain_note": "Typically dry"
+        },
+        "6": {
+          "typical_high_c": 38,
+          "typical_low_c": 28,
+          "typical_precip_mm": 62,
+          "rain_note": "Mixed rain chances"
+        },
+        "7": {
+          "typical_high_c": 33,
+          "typical_low_c": 27,
+          "typical_precip_mm": 246,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "8": {
+          "typical_high_c": 32,
+          "typical_low_c": 26,
+          "typical_precip_mm": 180,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "9": {
+          "typical_high_c": 32,
+          "typical_low_c": 24,
+          "typical_precip_mm": 79,
+          "rain_note": "Mixed rain chances"
+        },
+        "10": {
+          "typical_high_c": 32,
+          "typical_low_c": 20,
+          "typical_precip_mm": 9,
+          "rain_note": "Typically dry"
+        },
+        "11": {
+          "typical_high_c": 27,
+          "typical_low_c": 15,
+          "typical_precip_mm": 6,
+          "rain_note": "Typically dry"
+        },
+        "12": {
+          "typical_high_c": 22,
+          "typical_low_c": 9,
+          "typical_precip_mm": 4,
+          "rain_note": "Typically dry"
+        }
+      }
+    },
+    "singapore": {
+      "name": "Singapore",
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "months": {
+        "1": {
+          "typical_high_c": 29,
+          "typical_low_c": 24,
+          "typical_precip_mm": 248,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "2": {
+          "typical_high_c": 29,
+          "typical_low_c": 24,
+          "typical_precip_mm": 109,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "3": {
+          "typical_high_c": 30,
+          "typical_low_c": 25,
+          "typical_precip_mm": 184,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "4": {
+          "typical_high_c": 30,
+          "typical_low_c": 25,
+          "typical_precip_mm": 294,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "5": {
+          "typical_high_c": 29,
+          "typical_low_c": 25,
+          "typical_precip_mm": 296,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "6": {
+          "typical_high_c": 29,
+          "typical_low_c": 26,
+          "typical_precip_mm": 198,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "7": {
+          "typical_high_c": 29,
+          "typical_low_c": 25,
+          "typical_precip_mm": 143,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "8": {
+          "typical_high_c": 29,
+          "typical_low_c": 25,
+          "typical_precip_mm": 161,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "9": {
+          "typical_high_c": 29,
+          "typical_low_c": 25,
+          "typical_precip_mm": 146,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "10": {
+          "typical_high_c": 29,
+          "typical_low_c": 25,
+          "typical_precip_mm": 293,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "11": {
+          "typical_high_c": 29,
+          "typical_low_c": 24,
+          "typical_precip_mm": 363,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "12": {
+          "typical_high_c": 29,
+          "typical_low_c": 24,
+          "typical_precip_mm": 312,
+          "rain_note": "Typically wet — expect frequent rain"
+        }
+      }
+    },
+    "taipei": {
+      "name": "Taipei",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "months": {
+        "1": {
+          "typical_high_c": 19,
+          "typical_low_c": 14,
+          "typical_precip_mm": 83,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "2": {
+          "typical_high_c": 19,
+          "typical_low_c": 14,
+          "typical_precip_mm": 69,
+          "rain_note": "Mixed rain chances"
+        },
+        "3": {
+          "typical_high_c": 22,
+          "typical_low_c": 15,
+          "typical_precip_mm": 129,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "4": {
+          "typical_high_c": 26,
+          "typical_low_c": 19,
+          "typical_precip_mm": 161,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "5": {
+          "typical_high_c": 29,
+          "typical_low_c": 22,
+          "typical_precip_mm": 180,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "6": {
+          "typical_high_c": 31,
+          "typical_low_c": 25,
+          "typical_precip_mm": 295,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "7": {
+          "typical_high_c": 32,
+          "typical_low_c": 26,
+          "typical_precip_mm": 182,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "8": {
+          "typical_high_c": 32,
+          "typical_low_c": 26,
+          "typical_precip_mm": 237,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "9": {
+          "typical_high_c": 30,
+          "typical_low_c": 25,
+          "typical_precip_mm": 260,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "10": {
+          "typical_high_c": 27,
+          "typical_low_c": 22,
+          "typical_precip_mm": 159,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "11": {
+          "typical_high_c": 24,
+          "typical_low_c": 20,
+          "typical_precip_mm": 83,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "12": {
+          "typical_high_c": 21,
+          "typical_low_c": 16,
+          "typical_precip_mm": 74,
+          "rain_note": "Mixed rain chances"
+        }
+      }
+    },
+    "seoul": {
+      "name": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "months": {
+        "1": {
+          "typical_high_c": 2,
+          "typical_low_c": -7,
+          "typical_precip_mm": 8,
+          "rain_note": "Typically dry"
+        },
+        "2": {
+          "typical_high_c": 4,
+          "typical_low_c": -5,
+          "typical_precip_mm": 24,
+          "rain_note": "Mixed rain chances"
+        },
+        "3": {
+          "typical_high_c": 11,
+          "typical_low_c": -1,
+          "typical_precip_mm": 27,
+          "rain_note": "Mixed rain chances"
+        },
+        "4": {
+          "typical_high_c": 17,
+          "typical_low_c": 6,
+          "typical_precip_mm": 69,
+          "rain_note": "Mixed rain chances"
+        },
+        "5": {
+          "typical_high_c": 23,
+          "typical_low_c": 12,
+          "typical_precip_mm": 83,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "6": {
+          "typical_high_c": 27,
+          "typical_low_c": 17,
+          "typical_precip_mm": 65,
+          "rain_note": "Mixed rain chances"
+        },
+        "7": {
+          "typical_high_c": 29,
+          "typical_low_c": 22,
+          "typical_precip_mm": 297,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "8": {
+          "typical_high_c": 29,
+          "typical_low_c": 22,
+          "typical_precip_mm": 161,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "9": {
+          "typical_high_c": 25,
+          "typical_low_c": 16,
+          "typical_precip_mm": 64,
+          "rain_note": "Mixed rain chances"
+        },
+        "10": {
+          "typical_high_c": 19,
+          "typical_low_c": 9,
+          "typical_precip_mm": 77,
+          "rain_note": "Mixed rain chances"
+        },
+        "11": {
+          "typical_high_c": 11,
+          "typical_low_c": 2,
+          "typical_precip_mm": 52,
+          "rain_note": "Mixed rain chances"
+        },
+        "12": {
+          "typical_high_c": 4,
+          "typical_low_c": -5,
+          "typical_precip_mm": 30,
+          "rain_note": "Mixed rain chances"
+        }
+      }
+    },
+    "bangkok": {
+      "name": "Bangkok",
+      "lat": 13.7563,
+      "lon": 100.5018,
+      "months": {
+        "1": {
+          "typical_high_c": 30,
+          "typical_low_c": 22,
+          "typical_precip_mm": 34,
+          "rain_note": "Mixed rain chances"
+        },
+        "2": {
+          "typical_high_c": 32,
+          "typical_low_c": 23,
+          "typical_precip_mm": 16,
+          "rain_note": "Typically dry"
+        },
+        "3": {
+          "typical_high_c": 33,
+          "typical_low_c": 26,
+          "typical_precip_mm": 39,
+          "rain_note": "Mixed rain chances"
+        },
+        "4": {
+          "typical_high_c": 34,
+          "typical_low_c": 27,
+          "typical_precip_mm": 84,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "5": {
+          "typical_high_c": 34,
+          "typical_low_c": 27,
+          "typical_precip_mm": 158,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "6": {
+          "typical_high_c": 32,
+          "typical_low_c": 26,
+          "typical_precip_mm": 134,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "7": {
+          "typical_high_c": 32,
+          "typical_low_c": 26,
+          "typical_precip_mm": 150,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "8": {
+          "typical_high_c": 31,
+          "typical_low_c": 26,
+          "typical_precip_mm": 157,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "9": {
+          "typical_high_c": 31,
+          "typical_low_c": 25,
+          "typical_precip_mm": 251,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "10": {
+          "typical_high_c": 31,
+          "typical_low_c": 25,
+          "typical_precip_mm": 192,
+          "rain_note": "Typically wet — expect frequent rain"
+        },
+        "11": {
+          "typical_high_c": 31,
+          "typical_low_c": 24,
+          "typical_precip_mm": 57,
+          "rain_note": "Mixed rain chances"
+        },
+        "12": {
+          "typical_high_c": 31,
+          "typical_low_c": 23,
+          "typical_precip_mm": 23,
+          "rain_note": "Mixed rain chances"
+        }
+      }
+    },
+    "paris": {
+      "name": "Paris",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "months": {
+        "1": {
+          "typical_high_c": 7,
+          "typical_low_c": 2,
+          "typical_precip_mm": 65,
+          "rain_note": "Mixed rain chances"
+        },
+        "2": {
+          "typical_high_c": 9,
+          "typical_low_c": 1,
+          "typical_precip_mm": 49,
+          "rain_note": "Mixed rain chances"
+        },
+        "3": {
+          "typical_high_c": 12,
+          "typical_low_c": 4,
+          "typical_precip_mm": 72,
+          "rain_note": "Mixed rain chances"
+        },
+        "4": {
+          "typical_high_c": 16,
+          "typical_low_c": 5,
+          "typical_precip_mm": 47,
+          "rain_note": "Mixed rain chances"
+        },
+        "5": {
+          "typical_high_c": 19,
+          "typical_low_c": 9,
+          "typical_precip_mm": 84,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "6": {
+          "typical_high_c": 23,
+          "typical_low_c": 14,
+          "typical_precip_mm": 59,
+          "rain_note": "Mixed rain chances"
+        },
+        "7": {
+          "typical_high_c": 26,
+          "typical_low_c": 16,
+          "typical_precip_mm": 31,
+          "rain_note": "Mixed rain chances"
+        },
+        "8": {
+          "typical_high_c": 26,
+          "typical_low_c": 15,
+          "typical_precip_mm": 59,
+          "rain_note": "Mixed rain chances"
+        },
+        "9": {
+          "typical_high_c": 21,
+          "typical_low_c": 12,
+          "typical_precip_mm": 44,
+          "rain_note": "Mixed rain chances"
+        },
+        "10": {
+          "typical_high_c": 17,
+          "typical_low_c": 9,
+          "typical_precip_mm": 48,
+          "rain_note": "Mixed rain chances"
+        },
+        "11": {
+          "typical_high_c": 11,
+          "typical_low_c": 5,
+          "typical_precip_mm": 72,
+          "rain_note": "Mixed rain chances"
+        },
+        "12": {
+          "typical_high_c": 9,
+          "typical_low_c": 3,
+          "typical_precip_mm": 62,
+          "rain_note": "Mixed rain chances"
+        }
+      }
+    },
+    "berlin": {
+      "name": "Berlin",
+      "lat": 52.52,
+      "lon": 13.405,
+      "months": {
+        "1": {
+          "typical_high_c": 3,
+          "typical_low_c": -2,
+          "typical_precip_mm": 62,
+          "rain_note": "Mixed rain chances"
+        },
+        "2": {
+          "typical_high_c": 5,
+          "typical_low_c": -1,
+          "typical_precip_mm": 27,
+          "rain_note": "Mixed rain chances"
+        },
+        "3": {
+          "typical_high_c": 9,
+          "typical_low_c": 1,
+          "typical_precip_mm": 52,
+          "rain_note": "Mixed rain chances"
+        },
+        "4": {
+          "typical_high_c": 15,
+          "typical_low_c": 5,
+          "typical_precip_mm": 32,
+          "rain_note": "Mixed rain chances"
+        },
+        "5": {
+          "typical_high_c": 19,
+          "typical_low_c": 10,
+          "typical_precip_mm": 29,
+          "rain_note": "Mixed rain chances"
+        },
+        "6": {
+          "typical_high_c": 24,
+          "typical_low_c": 14,
+          "typical_precip_mm": 84,
+          "rain_note": "Often showery — pack a light rain layer"
+        },
+        "7": {
+          "typical_high_c": 25,
+          "typical_low_c": 15,
+          "typical_precip_mm": 63,
+          "rain_note": "Mixed rain chances"
+        },
+        "8": {
+          "typical_high_c": 26,
+          "typical_low_c": 16,
+          "typical_precip_mm": 34,
+          "rain_note": "Mixed rain chances"
+        },
+        "9": {
+          "typical_high_c": 21,
+          "typical_low_c": 12,
+          "typical_precip_mm": 41,
+          "rain_note": "Mixed rain chances"
+        },
+        "10": {
+          "typical_high_c": 14,
+          "typical_low_c": 7,
+          "typical_precip_mm": 57,
+          "rain_note": "Mixed rain chances"
+        },
+        "11": {
+          "typical_high_c": 8,
+          "typical_low_c": 3,
+          "typical_precip_mm": 50,
+          "rain_note": "Mixed rain chances"
+        },
+        "12": {
+          "typical_high_c": 6,
+          "typical_low_c": 2,
+          "typical_precip_mm": 44,
+          "rain_note": "Mixed rain chances"
+        }
+      }
+    }
+  }
+}

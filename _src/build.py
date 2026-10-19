@@ -459,6 +459,13 @@ def page(o, line, obs, gen, in_force, cancelled, flw, fnd):
 </header>
 <p class="tagline wrap">Zone out to the forecast &mdash; like the weather channel you left on.</p>
 
+<nav class="site-nav wrap" aria-label="Site">
+  <a class="is-on" href="./" aria-current="page">Home</a>
+  <a href="world.html">World</a>
+  <a href="regional.html">Regional</a>
+  <a href="plan-trip.html">Plan a trip</a>
+</nav>
+
 <main id="top">
 <section class="hero wrap" aria-labelledby="now-h">
   <article class="tv-card">
@@ -578,9 +585,9 @@ def page(o, line, obs, gen, in_force, cancelled, flw, fnd):
 <footer class="site-footer">
   <div class="wrap footer-inner">
     <div class="foot-brand"><img src="assets/sun-logo.png" alt="" width="40" height="40"><div><b>LOFI FORECAST</b><span>Zone out to the forecast &middot; music by Temple Street &middot; made possible by Weather Bot</span></div></div>
-    <nav class="foot-links" aria-label="Social links">
-      <a href="{LINKS['instagram'][1]}" rel="noopener">Instagram</a>
-      <a href="{LINKS['x'][1]}" rel="noopener">X</a>
+    <nav class="foot-links" aria-label="Site and social">
+      <a href="world.html">World</a>
+      <a href="plan-trip.html">Plan a trip</a>
       <a href="{LINKS['youtube'][1]}" rel="noopener">YouTube</a>
       <a href="{LINKS['spotify_artist'][1]}" rel="noopener">Spotify</a>
     </nav>
