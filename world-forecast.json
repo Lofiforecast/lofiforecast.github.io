@@ -1,24 +1,36 @@
 {
   "source": "MET Norway Locationforecast 2.0 (compact), api.met.no; CC BY 4.0 / NLOD; credit \"Weather data: MET Norway\"",
   "endpoint": "https://api.met.no/weatherapi/locationforecast/2.0/compact",
-  "fetched_utc": "2026-10-19T03:16:12Z",
-  "week_label": "19–25 Oct 2026",
-  "youtube": "https://youtu.be/iNRMHN1kGYU",
-  "video": "https://lofiforecast.github.io/lofi-forecast-media/videos/world-weather/2026-10-19/world-weather-week-2026-10-19.mp4",
-  "poster": "https://lofiforecast.github.io/lofi-forecast-media/videos/world-weather/2026-10-19/thumb.jpg",
+  "fetched_utc": "2026-11-01T07:55:13Z",
+  "week_label": "2–8 Nov 2026",
+  "youtube": "https://youtu.be/drZhTsdXt_g",
+  "video": "https://lofiforecast.github.io/lofi-forecast-media/videos/world-weather/2026-11-02/world-weather-week-2026-11-02.mp4",
+  "poster": "https://lofiforecast.github.io/lofi-forecast-media/videos/world-weather/2026-11-02/thumb.jpg",
   "ww_ids": [
     "hongkong",
+    "taipei",
+    "seoul",
     "tokyo",
     "sydney",
     "losangeles",
-    "mexicocity",
+    "chicago",
     "newyork",
+    "mexicocity",
     "saopaulo",
     "london",
+    "paris",
+    "berlin",
+    "rome",
+    "istanbul",
+    "moscow",
     "cairo",
     "johannesburg",
     "dubai",
-    "delhi"
+    "delhi",
+    "bangkok",
+    "singapore",
+    "beijing",
+    "shanghai"
   ],
   "cities": [
     {
@@ -30,94 +42,226 @@
       "tz": "Asia/Hong_Kong",
       "ww": true,
       "temp_c": 30,
-      "condition": "Partly cloudy",
-      "symbol": "partlycloudy_day",
+      "condition": "Clear",
+      "symbol": "clearsky_day",
       "days": [
         {
-          "date": "2026-10-19",
+          "date": "2026-11-02",
           "high_c": 30,
-          "low_c": 26,
+          "low_c": 24,
           "condition": "Clear",
           "symbol": "clearsky_day",
           "precip_mm": 0.0
         },
         {
-          "date": "2026-10-20",
-          "high_c": 30,
+          "date": "2026-11-03",
+          "high_c": 27,
+          "low_c": 24,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 4.8
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 26,
+          "low_c": 24,
+          "condition": "Light rain",
+          "symbol": "lightrain",
+          "precip_mm": 4.0
+        },
+        {
+          "date": "2026-11-05",
+          "high_c": 28,
           "low_c": 25,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 1.8
         },
         {
-          "date": "2026-10-21",
-          "high_c": 33,
+          "date": "2026-11-06",
+          "high_c": 28,
+          "low_c": 24,
+          "condition": "Fair",
+          "symbol": "fair_day",
+          "precip_mm": 3.0
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 26,
+          "low_c": 24,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 1.6
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 26,
           "low_c": 23,
           "condition": "Clear",
           "symbol": "clearsky_day",
-          "precip_mm": 0.0
+          "precip_mm": 2.0
+        }
+      ],
+      "today": {
+        "date": "2026-11-02",
+        "high_c": 30,
+        "low_c": 24,
+        "condition": "Clear",
+        "symbol": "clearsky_day",
+        "precip_mm": 0.0
+      }
+    },
+    {
+      "id": "taipei",
+      "name": "Taipei",
+      "country": "Taiwan",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "tz": "Asia/Taipei",
+      "ww": true,
+      "temp_c": 29,
+      "condition": "Light showers",
+      "symbol": "lightrainshowers_day",
+      "days": [
+        {
+          "date": "2026-11-02",
+          "high_c": 29,
+          "low_c": 21,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 0.4
         },
         {
-          "date": "2026-10-22",
-          "high_c": 32,
-          "low_c": 24,
+          "date": "2026-11-03",
+          "high_c": 26,
+          "low_c": 22,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 1.3
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 28,
+          "low_c": 23,
           "condition": "Partly cloudy",
           "symbol": "partlycloudy_day",
           "precip_mm": 0.0
         },
         {
-          "date": "2026-10-23",
-          "high_c": 32,
-          "low_c": 24,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
-          "precip_mm": 0.0
+          "date": "2026-11-05",
+          "high_c": 30,
+          "low_c": 21,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.1
         },
         {
-          "date": "2026-10-24",
-          "high_c": 32,
+          "date": "2026-11-06",
+          "high_c": 24,
           "low_c": 23,
           "condition": "Cloudy",
           "symbol": "cloudy",
-          "precip_mm": 0.0
+          "precip_mm": 1.3
         },
         {
-          "date": "2026-10-25",
-          "high_c": 31,
-          "low_c": 26,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "high_c": 28,
-          "low_c": 25,
-          "condition": "Light rain",
-          "symbol": "lightrain",
-          "precip_mm": 3.1
-        },
-        {
-          "date": "2026-10-27",
-          "high_c": 27,
-          "low_c": 23,
-          "condition": "Light rain",
-          "symbol": "lightrain",
-          "precip_mm": 1.1
-        },
-        {
-          "date": "2026-10-28",
-          "high_c": 29,
-          "low_c": 23,
+          "date": "2026-11-07",
+          "high_c": 24,
+          "low_c": 22,
           "condition": "Light showers",
           "symbol": "lightrainshowers_day",
-          "precip_mm": 0.9
+          "precip_mm": 1.3
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 24,
+          "low_c": 21,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 2.8
         }
       ],
       "today": {
-        "date": "2026-10-19",
-        "high_c": 30,
-        "low_c": 26,
+        "date": "2026-11-02",
+        "high_c": 29,
+        "low_c": 21,
+        "condition": "Light showers",
+        "symbol": "lightrainshowers_day",
+        "precip_mm": 0.4
+      }
+    },
+    {
+      "id": "seoul",
+      "name": "Seoul",
+      "country": "South Korea",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "tz": "Asia/Seoul",
+      "ww": true,
+      "temp_c": 14,
+      "condition": "Clear",
+      "symbol": "clearsky_day",
+      "days": [
+        {
+          "date": "2026-11-02",
+          "high_c": 14,
+          "low_c": 6,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-03",
+          "high_c": 15,
+          "low_c": 3,
+          "condition": "Fair",
+          "symbol": "fair_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 16,
+          "low_c": 6,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-05",
+          "high_c": 15,
+          "low_c": 11,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 4.0
+        },
+        {
+          "date": "2026-11-06",
+          "high_c": 10,
+          "low_c": 2,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.4
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 6,
+          "low_c": -1,
+          "condition": "Fair",
+          "symbol": "fair_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 9,
+          "low_c": -1,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        }
+      ],
+      "today": {
+        "date": "2026-11-02",
+        "high_c": 14,
+        "low_c": 6,
         "condition": "Clear",
         "symbol": "clearsky_day",
         "precip_mm": 0.0
@@ -131,98 +275,74 @@
       "lon": 139.6503,
       "tz": "Asia/Tokyo",
       "ww": true,
-      "temp_c": 26,
-      "condition": "Partly cloudy",
-      "symbol": "partlycloudy_day",
+      "temp_c": 18,
+      "condition": "Light showers",
+      "symbol": "lightrainshowers_day",
       "days": [
         {
-          "date": "2026-10-19",
-          "high_c": 27,
-          "low_c": 22,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
-          "precip_mm": 0.0
+          "date": "2026-11-02",
+          "high_c": 18,
+          "low_c": 12,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 2.0
         },
         {
-          "date": "2026-10-20",
-          "high_c": 25,
-          "low_c": 19,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
-          "precip_mm": 0.4
-        },
-        {
-          "date": "2026-10-21",
-          "high_c": 29,
-          "low_c": 20,
+          "date": "2026-11-03",
+          "high_c": 19,
+          "low_c": 10,
           "condition": "Partly cloudy",
           "symbol": "partlycloudy_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-22",
-          "high_c": 23,
-          "low_c": 19,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-23",
-          "high_c": 22,
-          "low_c": 15,
-          "condition": "Partly cloudy",
-          "symbol": "partlycloudy_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-24",
-          "high_c": 17,
-          "low_c": 16,
-          "condition": "Rain",
-          "symbol": "rain",
-          "precip_mm": 12.2
-        },
-        {
-          "date": "2026-10-25",
-          "high_c": 24,
-          "low_c": 17,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
           "precip_mm": 0.1
         },
         {
-          "date": "2026-10-26",
-          "high_c": 22,
-          "low_c": 18,
-          "condition": "Partly cloudy",
-          "symbol": "partlycloudy_day",
-          "precip_mm": 3.2
-        },
-        {
-          "date": "2026-10-27",
-          "high_c": 19,
-          "low_c": 15,
+          "date": "2026-11-04",
+          "high_c": 16,
+          "low_c": 13,
           "condition": "Cloudy",
           "symbol": "cloudy",
-          "precip_mm": 3.9
+          "precip_mm": 0.3
         },
         {
-          "date": "2026-10-28",
-          "high_c": 19,
-          "low_c": 18,
-          "condition": "Light rain",
-          "symbol": "lightrain",
-          "precip_mm": 0.9
+          "date": "2026-11-05",
+          "high_c": 17,
+          "low_c": 12,
+          "condition": "Rain",
+          "symbol": "rain",
+          "precip_mm": 60.0
+        },
+        {
+          "date": "2026-11-06",
+          "high_c": 23,
+          "low_c": 13,
+          "condition": "Fair",
+          "symbol": "fair_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 15,
+          "low_c": 11,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.2
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 11,
+          "low_c": 10,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 0.0
         }
       ],
       "today": {
-        "date": "2026-10-19",
-        "high_c": 27,
-        "low_c": 22,
-        "condition": "Cloudy",
-        "symbol": "cloudy",
-        "precip_mm": 0.0
+        "date": "2026-11-02",
+        "high_c": 18,
+        "low_c": 12,
+        "condition": "Light showers",
+        "symbol": "lightrainshowers_day",
+        "precip_mm": 2.0
       }
     },
     {
@@ -233,20 +353,44 @@
       "lon": 151.2093,
       "tz": "Australia/Sydney",
       "ww": true,
-      "temp_c": 20,
-      "condition": "Showers",
-      "symbol": "rainshowers_day",
+      "temp_c": 22,
+      "condition": "Light showers",
+      "symbol": "lightrainshowers_day",
       "days": [
         {
-          "date": "2026-10-19",
-          "high_c": 21,
+          "date": "2026-11-02",
+          "high_c": 22,
+          "low_c": 17,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 3.0
+        },
+        {
+          "date": "2026-11-03",
+          "high_c": 23,
           "low_c": 18,
           "condition": "Light showers",
           "symbol": "lightrainshowers_day",
-          "precip_mm": 0.7
+          "precip_mm": 7.7
         },
         {
-          "date": "2026-10-20",
+          "date": "2026-11-04",
+          "high_c": 22,
+          "low_c": 18,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 1.0
+        },
+        {
+          "date": "2026-11-05",
+          "high_c": 19,
+          "low_c": 16,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.1
+        },
+        {
+          "date": "2026-11-06",
           "high_c": 21,
           "low_c": 14,
           "condition": "Partly cloudy",
@@ -254,77 +398,29 @@
           "precip_mm": 0.0
         },
         {
-          "date": "2026-10-21",
-          "high_c": 22,
-          "low_c": 15,
+          "date": "2026-11-07",
+          "high_c": 30,
+          "low_c": 16,
           "condition": "Fair",
           "symbol": "fair_day",
           "precip_mm": 0.0
         },
         {
-          "date": "2026-10-22",
-          "high_c": 21,
-          "low_c": 17,
-          "condition": "Light showers",
-          "symbol": "lightrainshowers_day",
-          "precip_mm": 1.2
-        },
-        {
-          "date": "2026-10-23",
-          "high_c": 22,
-          "low_c": 17,
-          "condition": "Light showers",
-          "symbol": "lightrainshowers_day",
-          "precip_mm": 1.7
-        },
-        {
-          "date": "2026-10-24",
-          "high_c": 23,
-          "low_c": 18,
-          "condition": "Fair",
-          "symbol": "fair_day",
-          "precip_mm": 0.3
-        },
-        {
-          "date": "2026-10-25",
-          "high_c": 23,
-          "low_c": 19,
-          "condition": "Light rain",
-          "symbol": "lightrain",
-          "precip_mm": 6.1
-        },
-        {
-          "date": "2026-10-26",
-          "high_c": 24,
-          "low_c": 17,
-          "condition": "Fair",
-          "symbol": "fair_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "high_c": 17,
-          "low_c": 12,
-          "condition": "Showers",
-          "symbol": "rainshowers_day",
-          "precip_mm": 13.2
-        },
-        {
-          "date": "2026-10-28",
+          "date": "2026-11-08",
           "high_c": 18,
-          "low_c": 15,
-          "condition": "Rain",
-          "symbol": "rain",
-          "precip_mm": 30.2
+          "low_c": 14,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
         }
       ],
       "today": {
-        "date": "2026-10-19",
-        "high_c": 21,
-        "low_c": 18,
+        "date": "2026-11-02",
+        "high_c": 22,
+        "low_c": 17,
         "condition": "Light showers",
         "symbol": "lightrainshowers_day",
-        "precip_mm": 0.7
+        "precip_mm": 3.0
       }
     },
     {
@@ -335,105 +431,229 @@
       "lon": -118.2437,
       "tz": "America/Los_Angeles",
       "ww": true,
-      "temp_c": 25,
-      "condition": "Clear",
-      "symbol": "clearsky_night",
+      "temp_c": 21,
+      "condition": "Partly cloudy",
+      "symbol": "partlycloudy_day",
       "days": [
         {
-          "date": "2026-10-18",
-          "high_c": 25,
-          "low_c": 21,
-          "condition": "–",
-          "symbol": null,
+          "date": "2026-11-02",
+          "high_c": 21,
+          "low_c": 11,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
           "precip_mm": 0.0
         },
         {
-          "date": "2026-10-19",
-          "high_c": 30,
-          "low_c": 19,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-20",
-          "high_c": 28,
-          "low_c": 18,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-21",
-          "high_c": 22,
-          "low_c": 16,
-          "condition": "Showers",
-          "symbol": "rainshowers_day",
-          "precip_mm": 0.7
-        },
-        {
-          "date": "2026-10-22",
-          "high_c": 18,
+          "date": "2026-11-03",
+          "high_c": 21,
           "low_c": 14,
-          "condition": "Light showers",
-          "symbol": "lightrainshowers_day",
-          "precip_mm": 1.3
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.0
         },
         {
-          "date": "2026-10-23",
-          "high_c": 19,
+          "date": "2026-11-04",
+          "high_c": 20,
           "low_c": 12,
           "condition": "Clear",
           "symbol": "clearsky_day",
           "precip_mm": 0.0
         },
         {
-          "date": "2026-10-24",
-          "high_c": 25,
+          "date": "2026-11-05",
+          "high_c": 23,
+          "low_c": 14,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-06",
+          "high_c": 24,
           "low_c": 13,
           "condition": "Clear",
           "symbol": "clearsky_day",
           "precip_mm": 0.0
         },
         {
-          "date": "2026-10-25",
+          "date": "2026-11-07",
           "high_c": 26,
-          "low_c": 16,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "high_c": 29,
-          "low_c": 18,
+          "low_c": 13,
           "condition": "Clear",
           "symbol": "clearsky_day",
           "precip_mm": 0.0
         },
         {
-          "date": "2026-10-27",
+          "date": "2026-11-08",
           "high_c": 27,
-          "low_c": 19,
+          "low_c": 13,
           "condition": "Cloudy",
           "symbol": "cloudy",
-          "precip_mm": 0.4
-        },
-        {
-          "date": "2026-10-28",
-          "high_c": 19,
-          "low_c": 19,
-          "condition": "–",
-          "symbol": null,
-          "precip_mm": null
+          "precip_mm": 0.0
         }
       ],
       "today": {
-        "date": "2026-10-18",
-        "high_c": 25,
-        "low_c": 21,
-        "condition": "–",
-        "symbol": null,
+        "date": "2026-11-02",
+        "high_c": 21,
+        "low_c": 11,
+        "condition": "Partly cloudy",
+        "symbol": "partlycloudy_day",
+        "precip_mm": 0.0
+      }
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago",
+      "country": "USA",
+      "lat": 41.8781,
+      "lon": -87.6298,
+      "tz": "America/Chicago",
+      "ww": true,
+      "temp_c": 18,
+      "condition": "Cloudy",
+      "symbol": "cloudy",
+      "days": [
+        {
+          "date": "2026-11-02",
+          "high_c": 18,
+          "low_c": 13,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 0.9
+        },
+        {
+          "date": "2026-11-03",
+          "high_c": 23,
+          "low_c": 18,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.1
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 20,
+          "low_c": 16,
+          "condition": "Showers",
+          "symbol": "rainshowers_day",
+          "precip_mm": 12.0
+        },
+        {
+          "date": "2026-11-05",
+          "high_c": 15,
+          "low_c": 13,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 1.6
+        },
+        {
+          "date": "2026-11-06",
+          "high_c": 12,
+          "low_c": 10,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 0.1
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 9,
+          "low_c": 8,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 10,
+          "low_c": 7,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 0.0
+        }
+      ],
+      "today": {
+        "date": "2026-11-02",
+        "high_c": 18,
+        "low_c": 13,
+        "condition": "Cloudy",
+        "symbol": "cloudy",
+        "precip_mm": 0.9
+      }
+    },
+    {
+      "id": "newyork",
+      "name": "New York",
+      "country": "USA",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "tz": "America/New_York",
+      "ww": true,
+      "temp_c": 19,
+      "condition": "Partly cloudy",
+      "symbol": "partlycloudy_day",
+      "days": [
+        {
+          "date": "2026-11-02",
+          "high_c": 19,
+          "low_c": 8,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-03",
+          "high_c": 20,
+          "low_c": 9,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 21,
+          "low_c": 11,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-05",
+          "high_c": 21,
+          "low_c": 13,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 1.3
+        },
+        {
+          "date": "2026-11-06",
+          "high_c": 20,
+          "low_c": 18,
+          "condition": "Heavy rain",
+          "symbol": "heavyrain",
+          "precip_mm": 65.0
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 20,
+          "low_c": 13,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 16,
+          "low_c": 9,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        }
+      ],
+      "today": {
+        "date": "2026-11-02",
+        "high_c": 19,
+        "low_c": 8,
+        "condition": "Partly cloudy",
+        "symbol": "partlycloudy_day",
         "precip_mm": 0.0
       }
     },
@@ -445,215 +665,73 @@
       "lon": -99.1332,
       "tz": "America/Mexico_City",
       "ww": true,
-      "temp_c": 16,
-      "condition": "Rain",
-      "symbol": "rain",
+      "temp_c": 27,
+      "condition": "Partly cloudy",
+      "symbol": "partlycloudy_day",
       "days": [
         {
-          "date": "2026-10-18",
-          "high_c": 16,
+          "date": "2026-11-02",
+          "high_c": 27,
           "low_c": 14,
-          "condition": "–",
-          "symbol": null,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-03",
+          "high_c": 28,
+          "low_c": 11,
+          "condition": "Fair",
+          "symbol": "fair_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 26,
+          "low_c": 13,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-05",
+          "high_c": 25,
+          "low_c": 13,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 1.3
+        },
+        {
+          "date": "2026-11-06",
+          "high_c": 24,
+          "low_c": 14,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 5.9
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 22,
+          "low_c": 11,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 1.8
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 20,
+          "low_c": 11,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
           "precip_mm": 0.6
-        },
-        {
-          "date": "2026-10-19",
-          "high_c": 22,
-          "low_c": 12,
-          "condition": "Rain",
-          "symbol": "rain",
-          "precip_mm": 5.7
-        },
-        {
-          "date": "2026-10-20",
-          "high_c": 22,
-          "low_c": 10,
-          "condition": "Light showers",
-          "symbol": "lightrainshowers_day",
-          "precip_mm": 1.0
-        },
-        {
-          "date": "2026-10-21",
-          "high_c": 20,
-          "low_c": 14,
-          "condition": "Light showers",
-          "symbol": "lightrainshowers_day",
-          "precip_mm": 0.8
-        },
-        {
-          "date": "2026-10-22",
-          "high_c": 20,
-          "low_c": 14,
-          "condition": "Showers",
-          "symbol": "rainshowers_day",
-          "precip_mm": 4.9
-        },
-        {
-          "date": "2026-10-23",
-          "high_c": 20,
-          "low_c": 12,
-          "condition": "Partly cloudy",
-          "symbol": "partlycloudy_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-24",
-          "high_c": 20,
-          "low_c": 14,
-          "condition": "Light showers",
-          "symbol": "lightrainshowers_day",
-          "precip_mm": 1.0
-        },
-        {
-          "date": "2026-10-25",
-          "high_c": 20,
-          "low_c": 12,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "high_c": 20,
-          "low_c": 13,
-          "condition": "Light rain",
-          "symbol": "lightrain",
-          "precip_mm": 0.8
-        },
-        {
-          "date": "2026-10-27",
-          "high_c": 19,
-          "low_c": 12,
-          "condition": "Partly cloudy",
-          "symbol": "partlycloudy_day",
-          "precip_mm": 0.4
-        },
-        {
-          "date": "2026-10-28",
-          "high_c": 14,
-          "low_c": 13,
-          "condition": "–",
-          "symbol": null,
-          "precip_mm": 0.0
         }
       ],
       "today": {
-        "date": "2026-10-18",
-        "high_c": 16,
+        "date": "2026-11-02",
+        "high_c": 27,
         "low_c": 14,
-        "condition": "–",
-        "symbol": null,
-        "precip_mm": 0.6
-      }
-    },
-    {
-      "id": "newyork",
-      "name": "New York",
-      "country": "USA",
-      "lat": 40.7128,
-      "lon": -74.006,
-      "tz": "America/New_York",
-      "ww": true,
-      "temp_c": 10,
-      "condition": "Clear",
-      "symbol": "clearsky_night",
-      "days": [
-        {
-          "date": "2026-10-18",
-          "high_c": 10,
-          "low_c": 9,
-          "condition": "–",
-          "symbol": null,
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-19",
-          "high_c": 17,
-          "low_c": 6,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-20",
-          "high_c": 18,
-          "low_c": 10,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-21",
-          "high_c": 14,
-          "low_c": 7,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-22",
-          "high_c": 17,
-          "low_c": 7,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-23",
-          "high_c": 12,
-          "low_c": 6,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-24",
-          "high_c": 12,
-          "low_c": 4,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-25",
-          "high_c": 17,
-          "low_c": 5,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "high_c": 18,
-          "low_c": 6,
-          "condition": "Partly cloudy",
-          "symbol": "partlycloudy_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "high_c": 19,
-          "low_c": 12,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "high_c": 10,
-          "low_c": 7,
-          "condition": "–",
-          "symbol": null,
-          "precip_mm": 0.0
-        }
-      ],
-      "today": {
-        "date": "2026-10-18",
-        "high_c": 10,
-        "low_c": 9,
-        "condition": "–",
-        "symbol": null,
+        "condition": "Partly cloudy",
+        "symbol": "partlycloudy_day",
         "precip_mm": 0.0
       }
     },
@@ -665,98 +743,74 @@
       "lon": -46.6333,
       "tz": "America/Sao_Paulo",
       "ww": true,
-      "temp_c": 15,
-      "condition": "Cloudy",
-      "symbol": "cloudy",
+      "temp_c": 27,
+      "condition": "Showers",
+      "symbol": "rainshowers_day",
       "days": [
         {
-          "date": "2026-10-19",
-          "high_c": 22,
-          "low_c": 14,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
-          "precip_mm": 0.0
+          "date": "2026-11-02",
+          "high_c": 27,
+          "low_c": 19,
+          "condition": "Showers",
+          "symbol": "rainshowers_day",
+          "precip_mm": 5.2
         },
         {
-          "date": "2026-10-20",
-          "high_c": 22,
-          "low_c": 14,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
-          "precip_mm": 0.0
+          "date": "2026-11-03",
+          "high_c": 30,
+          "low_c": 19,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 3.0
         },
         {
-          "date": "2026-10-21",
-          "high_c": 21,
-          "low_c": 14,
+          "date": "2026-11-04",
+          "high_c": 28,
+          "low_c": 20,
           "condition": "Cloudy",
           "symbol": "cloudy",
-          "precip_mm": 0.0
+          "precip_mm": 0.7
         },
         {
-          "date": "2026-10-22",
-          "high_c": 22,
+          "date": "2026-11-05",
+          "high_c": 26,
+          "low_c": 21,
+          "condition": "Rain",
+          "symbol": "rain",
+          "precip_mm": 5.9
+        },
+        {
+          "date": "2026-11-06",
+          "high_c": 20,
+          "low_c": 17,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 12.5
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 19,
           "low_c": 16,
           "condition": "Cloudy",
           "symbol": "cloudy",
-          "precip_mm": 6.5
+          "precip_mm": 1.2
         },
         {
-          "date": "2026-10-23",
-          "high_c": 22,
-          "low_c": 17,
-          "condition": "Rain",
-          "symbol": "rain",
-          "precip_mm": 12.4
-        },
-        {
-          "date": "2026-10-24",
-          "high_c": 24,
-          "low_c": 19,
-          "condition": "Heavy rain",
-          "symbol": "heavyrain",
-          "precip_mm": 21.0
-        },
-        {
-          "date": "2026-10-25",
-          "high_c": 26,
-          "low_c": 20,
-          "condition": "Rain",
-          "symbol": "rain",
-          "precip_mm": 13.6
-        },
-        {
-          "date": "2026-10-26",
-          "high_c": 22,
+          "date": "2026-11-08",
+          "high_c": 17,
           "low_c": 15,
-          "condition": "Partly cloudy",
-          "symbol": "partlycloudy_day",
-          "precip_mm": 0.3
-        },
-        {
-          "date": "2026-10-27",
-          "high_c": 22,
-          "low_c": 13,
-          "condition": "Partly cloudy",
-          "symbol": "partlycloudy_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "high_c": 20,
-          "low_c": 14,
-          "condition": "–",
-          "symbol": null,
-          "precip_mm": 0.0
+          "condition": "Light rain",
+          "symbol": "lightrain",
+          "precip_mm": 5.5
         }
       ],
       "today": {
-        "date": "2026-10-19",
-        "high_c": 22,
-        "low_c": 14,
-        "condition": "Cloudy",
-        "symbol": "cloudy",
-        "precip_mm": 0.0
+        "date": "2026-11-02",
+        "high_c": 27,
+        "low_c": 19,
+        "condition": "Showers",
+        "symbol": "rainshowers_day",
+        "precip_mm": 5.2
       }
     },
     {
@@ -767,98 +821,464 @@
       "lon": -0.1276,
       "tz": "Europe/London",
       "ww": true,
-      "temp_c": 9,
-      "condition": "Rain",
-      "symbol": "rain",
+      "temp_c": 12,
+      "condition": "Partly cloudy",
+      "symbol": "partlycloudy_day",
       "days": [
         {
-          "date": "2026-10-19",
-          "high_c": 14,
-          "low_c": 8,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
-          "precip_mm": 1.0
-        },
-        {
-          "date": "2026-10-20",
-          "high_c": 12,
-          "low_c": 11,
-          "condition": "Rain",
-          "symbol": "rain",
-          "precip_mm": 4.5
-        },
-        {
-          "date": "2026-10-21",
+          "date": "2026-11-02",
           "high_c": 12,
           "low_c": 9,
-          "condition": "Rain",
-          "symbol": "rain",
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
           "precip_mm": 0.9
         },
         {
-          "date": "2026-10-22",
-          "high_c": 14,
-          "low_c": 8,
-          "condition": "Showers",
-          "symbol": "rainshowers_day",
-          "precip_mm": 14.4
-        },
-        {
-          "date": "2026-10-23",
+          "date": "2026-11-03",
           "high_c": 12,
-          "low_c": 9,
-          "condition": "Light showers",
-          "symbol": "lightrainshowers_day",
-          "precip_mm": 3.9
+          "low_c": 8,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.2
         },
         {
-          "date": "2026-10-24",
-          "high_c": 11,
-          "low_c": 7,
-          "condition": "Rain",
-          "symbol": "rain",
-          "precip_mm": 7.7
-        },
-        {
-          "date": "2026-10-25",
-          "high_c": 14,
-          "low_c": 12,
+          "date": "2026-11-04",
+          "high_c": 10,
+          "low_c": 8,
           "condition": "Cloudy",
           "symbol": "cloudy",
-          "precip_mm": 0.3
+          "precip_mm": 0.5
         },
         {
-          "date": "2026-10-26",
-          "high_c": 17,
-          "low_c": 13,
-          "condition": "Light rain",
-          "symbol": "lightrain",
-          "precip_mm": 1.3
+          "date": "2026-11-05",
+          "high_c": 10,
+          "low_c": 8,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 1.1
         },
         {
-          "date": "2026-10-27",
-          "high_c": 18,
-          "low_c": 13,
+          "date": "2026-11-06",
+          "high_c": 10,
+          "low_c": 8,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 9,
+          "low_c": 6,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 0.9
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 9,
+          "low_c": 6,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.6
+        }
+      ],
+      "today": {
+        "date": "2026-11-02",
+        "high_c": 12,
+        "low_c": 9,
+        "condition": "Partly cloudy",
+        "symbol": "partlycloudy_day",
+        "precip_mm": 0.9
+      }
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "country": "France",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "tz": "Europe/Paris",
+      "ww": true,
+      "temp_c": 12,
+      "condition": "Cloudy",
+      "symbol": "cloudy",
+      "days": [
+        {
+          "date": "2026-11-02",
+          "high_c": 12,
+          "low_c": 7,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-03",
+          "high_c": 11,
+          "low_c": 6,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 9,
+          "low_c": 4,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-05",
+          "high_c": 9,
+          "low_c": 3,
+          "condition": "Fair",
+          "symbol": "fair_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-06",
+          "high_c": 10,
+          "low_c": 5,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 0.1
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 10,
+          "low_c": 7,
           "condition": "Light showers",
           "symbol": "lightrainshowers_day",
+          "precip_mm": 2.1
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 8,
+          "low_c": 6,
+          "condition": "Light rain",
+          "symbol": "lightrain",
+          "precip_mm": 1.8
+        }
+      ],
+      "today": {
+        "date": "2026-11-02",
+        "high_c": 12,
+        "low_c": 7,
+        "condition": "Cloudy",
+        "symbol": "cloudy",
+        "precip_mm": 0.0
+      }
+    },
+    {
+      "id": "berlin",
+      "name": "Berlin",
+      "country": "Germany",
+      "lat": 52.52,
+      "lon": 13.405,
+      "tz": "Europe/Berlin",
+      "ww": true,
+      "temp_c": 8,
+      "condition": "Partly cloudy",
+      "symbol": "partlycloudy_day",
+      "days": [
+        {
+          "date": "2026-11-02",
+          "high_c": 8,
+          "low_c": 5,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-03",
+          "high_c": 9,
+          "low_c": 4,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 10,
+          "low_c": 5,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-05",
+          "high_c": 9,
+          "low_c": 2,
+          "condition": "Fair",
+          "symbol": "fair_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-06",
+          "high_c": 7,
+          "low_c": 1,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 5,
+          "low_c": 3,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 2,
+          "low_c": 1,
+          "condition": "Rain",
+          "symbol": "rain",
+          "precip_mm": 4.1
+        }
+      ],
+      "today": {
+        "date": "2026-11-02",
+        "high_c": 8,
+        "low_c": 5,
+        "condition": "Partly cloudy",
+        "symbol": "partlycloudy_day",
+        "precip_mm": 0.0
+      }
+    },
+    {
+      "id": "rome",
+      "name": "Rome",
+      "country": "Italy",
+      "lat": 41.9028,
+      "lon": 12.4964,
+      "tz": "Europe/Rome",
+      "ww": true,
+      "temp_c": 15,
+      "condition": "Partly cloudy",
+      "symbol": "partlycloudy_day",
+      "days": [
+        {
+          "date": "2026-11-02",
+          "high_c": 15,
+          "low_c": 8,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 1.8
+        },
+        {
+          "date": "2026-11-03",
+          "high_c": 19,
+          "low_c": 11,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 18,
+          "low_c": 9,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.2
+        },
+        {
+          "date": "2026-11-05",
+          "high_c": 18,
+          "low_c": 8,
+          "condition": "Fair",
+          "symbol": "fair_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-06",
+          "high_c": 14,
+          "low_c": 10,
+          "condition": "Showers",
+          "symbol": "rainshowers_day",
+          "precip_mm": 11.6
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 17,
+          "low_c": 12,
+          "condition": "Heavy showers",
+          "symbol": "heavyrainshowers_day",
+          "precip_mm": 19.1
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 17,
+          "low_c": 13,
+          "condition": "Rain",
+          "symbol": "rain",
+          "precip_mm": 19.0
+        }
+      ],
+      "today": {
+        "date": "2026-11-02",
+        "high_c": 15,
+        "low_c": 8,
+        "condition": "Partly cloudy",
+        "symbol": "partlycloudy_day",
+        "precip_mm": 1.8
+      }
+    },
+    {
+      "id": "istanbul",
+      "name": "Istanbul",
+      "country": "Türkiye",
+      "lat": 41.0082,
+      "lon": 28.9784,
+      "tz": "Europe/Istanbul",
+      "ww": true,
+      "temp_c": 20,
+      "condition": "Partly cloudy",
+      "symbol": "partlycloudy_day",
+      "days": [
+        {
+          "date": "2026-11-02",
+          "high_c": 20,
+          "low_c": 14,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
           "precip_mm": 3.6
         },
         {
-          "date": "2026-10-28",
+          "date": "2026-11-03",
+          "high_c": 21,
+          "low_c": 14,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 7.1
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 17,
+          "low_c": 14,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 7.9
+        },
+        {
+          "date": "2026-11-05",
+          "high_c": 13,
+          "low_c": 12,
+          "condition": "Light rain",
+          "symbol": "lightrain",
+          "precip_mm": 8.7
+        },
+        {
+          "date": "2026-11-06",
           "high_c": 12,
           "low_c": 8,
+          "condition": "Fair",
+          "symbol": "fair_day",
+          "precip_mm": 0.3
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 14,
+          "low_c": 7,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.1
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 14,
+          "low_c": 9,
           "condition": "Clear",
           "symbol": "clearsky_day",
           "precip_mm": 0.0
         }
       ],
       "today": {
-        "date": "2026-10-19",
-        "high_c": 14,
-        "low_c": 8,
-        "condition": "Cloudy",
-        "symbol": "cloudy",
-        "precip_mm": 1.0
+        "date": "2026-11-02",
+        "high_c": 20,
+        "low_c": 14,
+        "condition": "Partly cloudy",
+        "symbol": "partlycloudy_day",
+        "precip_mm": 3.6
+      }
+    },
+    {
+      "id": "moscow",
+      "name": "Moscow",
+      "country": "Russia",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "tz": "Europe/Moscow",
+      "ww": true,
+      "temp_c": 4,
+      "condition": "Partly cloudy",
+      "symbol": "partlycloudy_day",
+      "days": [
+        {
+          "date": "2026-11-02",
+          "high_c": 4,
+          "low_c": -1,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-03",
+          "high_c": 2,
+          "low_c": -1,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 0.1
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 3,
+          "low_c": 2,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 0.6
+        },
+        {
+          "date": "2026-11-05",
+          "high_c": 5,
+          "low_c": 0,
+          "condition": "Light rain",
+          "symbol": "lightrain",
+          "precip_mm": 1.0
+        },
+        {
+          "date": "2026-11-06",
+          "high_c": 2,
+          "low_c": 0,
+          "condition": "Light sleet",
+          "symbol": "lightsleet",
+          "precip_mm": 11.9
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 0,
+          "low_c": -1,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 0.3
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 0,
+          "low_c": -2,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 0.0
+        }
+      ],
+      "today": {
+        "date": "2026-11-02",
+        "high_c": 4,
+        "low_c": -1,
+        "condition": "Partly cloudy",
+        "symbol": "partlycloudy_day",
+        "precip_mm": 0.0
       }
     },
     {
@@ -869,95 +1289,71 @@
       "lon": 31.2357,
       "tz": "Africa/Cairo",
       "ww": true,
-      "temp_c": 18,
+      "temp_c": 32,
       "condition": "Clear",
-      "symbol": "clearsky_night",
+      "symbol": "clearsky_day",
       "days": [
         {
-          "date": "2026-10-19",
-          "high_c": 27,
-          "low_c": 17,
+          "date": "2026-11-02",
+          "high_c": 32,
+          "low_c": 20,
           "condition": "Clear",
           "symbol": "clearsky_day",
           "precip_mm": 0.0
         },
         {
-          "date": "2026-10-20",
-          "high_c": 28,
-          "low_c": 17,
+          "date": "2026-11-03",
+          "high_c": 30,
+          "low_c": 18,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 32,
+          "low_c": 21,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-05",
+          "high_c": 29,
+          "low_c": 20,
           "condition": "Fair",
           "symbol": "fair_day",
           "precip_mm": 0.0
         },
         {
-          "date": "2026-10-21",
-          "high_c": 28,
-          "low_c": 17,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-22",
-          "high_c": 28,
+          "date": "2026-11-06",
+          "high_c": 25,
           "low_c": 19,
           "condition": "Partly cloudy",
           "symbol": "partlycloudy_day",
           "precip_mm": 0.0
         },
         {
-          "date": "2026-10-23",
-          "high_c": 31,
-          "low_c": 20,
+          "date": "2026-11-07",
+          "high_c": 24,
+          "low_c": 18,
           "condition": "Fair",
           "symbol": "fair_day",
           "precip_mm": 0.0
         },
         {
-          "date": "2026-10-24",
-          "high_c": 30,
-          "low_c": 20,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-25",
-          "high_c": 30,
-          "low_c": 20,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "high_c": 31,
-          "low_c": 21,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "high_c": 30,
-          "low_c": 21,
-          "condition": "Partly cloudy",
-          "symbol": "partlycloudy_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "high_c": 31,
-          "low_c": 22,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
+          "date": "2026-11-08",
+          "high_c": 25,
+          "low_c": 16,
+          "condition": "Fair",
+          "symbol": "fair_day",
           "precip_mm": 0.0
         }
       ],
       "today": {
-        "date": "2026-10-19",
-        "high_c": 27,
-        "low_c": 17,
+        "date": "2026-11-02",
+        "high_c": 32,
+        "low_c": 20,
         "condition": "Clear",
         "symbol": "clearsky_day",
         "precip_mm": 0.0
@@ -971,98 +1367,74 @@
       "lon": 28.0473,
       "tz": "Africa/Johannesburg",
       "ww": true,
-      "temp_c": 17,
-      "condition": "Cloudy",
-      "symbol": "cloudy",
+      "temp_c": 27,
+      "condition": "Light showers",
+      "symbol": "lightrainshowers_day",
       "days": [
         {
-          "date": "2026-10-19",
-          "high_c": 28,
-          "low_c": 14,
-          "condition": "Light showers",
-          "symbol": "lightrainshowers_day",
-          "precip_mm": 0.5
-        },
-        {
-          "date": "2026-10-20",
-          "high_c": 25,
-          "low_c": 10,
-          "condition": "Fair",
-          "symbol": "fair_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-21",
-          "high_c": 29,
-          "low_c": 14,
-          "condition": "Partly cloudy",
-          "symbol": "partlycloudy_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-22",
-          "high_c": 30,
-          "low_c": 18,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-23",
-          "high_c": 29,
-          "low_c": 18,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-24",
+          "date": "2026-11-02",
           "high_c": 27,
           "low_c": 17,
-          "condition": "Fair",
-          "symbol": "fair_day",
-          "precip_mm": 0.0
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 4.6
         },
         {
-          "date": "2026-10-25",
-          "high_c": 29,
+          "date": "2026-11-03",
+          "high_c": 27,
+          "low_c": 15,
+          "condition": "Showers",
+          "symbol": "rainshowers_day",
+          "precip_mm": 10.1
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 27,
           "low_c": 16,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.2
-        },
-        {
-          "date": "2026-10-26",
-          "high_c": 31,
-          "low_c": 21,
-          "condition": "Partly cloudy",
-          "symbol": "partlycloudy_day",
-          "precip_mm": 0.7
-        },
-        {
-          "date": "2026-10-27",
-          "high_c": 30,
-          "low_c": 19,
-          "condition": "Partly cloudy",
-          "symbol": "partlycloudy_day",
-          "precip_mm": 1.0
-        },
-        {
-          "date": "2026-10-28",
-          "high_c": 30,
-          "low_c": 19,
           "condition": "Fair",
           "symbol": "fair_day",
-          "precip_mm": 0.1
+          "precip_mm": 0.4
+        },
+        {
+          "date": "2026-11-05",
+          "high_c": 23,
+          "low_c": 19,
+          "condition": "Showers",
+          "symbol": "rainshowers_day",
+          "precip_mm": 8.7
+        },
+        {
+          "date": "2026-11-06",
+          "high_c": 25,
+          "low_c": 16,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 1.7
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 24,
+          "low_c": 17,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 2.5
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 29,
+          "low_c": 15,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 0.9
         }
       ],
       "today": {
-        "date": "2026-10-19",
-        "high_c": 28,
-        "low_c": 14,
+        "date": "2026-11-02",
+        "high_c": 27,
+        "low_c": 17,
         "condition": "Light showers",
         "symbol": "lightrainshowers_day",
-        "precip_mm": 0.5
+        "precip_mm": 4.6
       }
     },
     {
@@ -1073,95 +1445,71 @@
       "lon": 55.2708,
       "tz": "Asia/Dubai",
       "ww": true,
-      "temp_c": 26,
+      "temp_c": 33,
       "condition": "Clear",
       "symbol": "clearsky_day",
       "days": [
         {
-          "date": "2026-10-19",
-          "high_c": 36,
-          "low_c": 26,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-20",
-          "high_c": 36,
-          "low_c": 26,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-21",
-          "high_c": 36,
-          "low_c": 27,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.1
-        },
-        {
-          "date": "2026-10-22",
-          "high_c": 34,
-          "low_c": 27,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-23",
+          "date": "2026-11-02",
           "high_c": 33,
-          "low_c": 26,
+          "low_c": 24,
           "condition": "Clear",
           "symbol": "clearsky_day",
           "precip_mm": 0.0
         },
         {
-          "date": "2026-10-24",
-          "high_c": 32,
-          "low_c": 26,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-25",
-          "high_c": 32,
-          "low_c": 26,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-26",
-          "high_c": 32,
-          "low_c": 26,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-27",
-          "high_c": 32,
-          "low_c": 27,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-28",
+          "date": "2026-11-03",
           "high_c": 32,
           "low_c": 25,
           "condition": "Clear",
           "symbol": "clearsky_day",
           "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 32,
+          "low_c": 26,
+          "condition": "Fair",
+          "symbol": "fair_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-05",
+          "high_c": 31,
+          "low_c": 26,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-06",
+          "high_c": 31,
+          "low_c": 25,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 32,
+          "low_c": 24,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 32,
+          "low_c": 23,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.0
         }
       ],
       "today": {
-        "date": "2026-10-19",
-        "high_c": 36,
-        "low_c": 26,
+        "date": "2026-11-02",
+        "high_c": 33,
+        "low_c": 24,
         "condition": "Clear",
         "symbol": "clearsky_day",
         "precip_mm": 0.0
@@ -1175,403 +1523,73 @@
       "lon": 77.209,
       "tz": "Asia/Kolkata",
       "ww": true,
-      "temp_c": 21,
+      "temp_c": 28,
       "condition": "Clear",
       "symbol": "clearsky_day",
       "days": [
         {
-          "date": "2026-10-19",
-          "high_c": 29,
-          "low_c": 21,
+          "date": "2026-11-02",
+          "high_c": 28,
+          "low_c": 18,
           "condition": "Clear",
           "symbol": "clearsky_day",
           "precip_mm": 0.0
         },
         {
-          "date": "2026-10-20",
-          "high_c": 29,
+          "date": "2026-11-03",
+          "high_c": 28,
+          "low_c": 18,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 26,
+          "low_c": 18,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-05",
+          "high_c": 26,
+          "low_c": 18,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-06",
+          "high_c": 27,
           "low_c": 19,
           "condition": "Clear",
           "symbol": "clearsky_day",
           "precip_mm": 0.0
         },
         {
-          "date": "2026-10-21",
-          "high_c": 30,
-          "low_c": 20,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-22",
-          "high_c": 29,
-          "low_c": 20,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-23",
-          "high_c": 30,
-          "low_c": 21,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-24",
-          "high_c": 31,
-          "low_c": 21,
-          "condition": "Fair",
-          "symbol": "fair_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-25",
-          "high_c": 30,
-          "low_c": 20,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.1
-        },
-        {
-          "date": "2026-10-26",
-          "high_c": 31,
-          "low_c": 22,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.1
-        },
-        {
-          "date": "2026-10-27",
-          "high_c": 30,
-          "low_c": 20,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "high_c": 29,
+          "date": "2026-11-07",
+          "high_c": 26,
           "low_c": 18,
-          "condition": "Fair",
-          "symbol": "fair_day",
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 27,
+          "low_c": 18,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
           "precip_mm": 0.0
         }
       ],
       "today": {
-        "date": "2026-10-19",
-        "high_c": 29,
-        "low_c": 21,
+        "date": "2026-11-02",
+        "high_c": 28,
+        "low_c": 18,
         "condition": "Clear",
         "symbol": "clearsky_day",
-        "precip_mm": 0.0
-      }
-    },
-    {
-      "id": "singapore",
-      "name": "Singapore",
-      "country": "Singapore",
-      "lat": 1.3521,
-      "lon": 103.8198,
-      "tz": "Asia/Singapore",
-      "ww": false,
-      "temp_c": 31,
-      "condition": "Cloudy",
-      "symbol": "cloudy",
-      "days": [
-        {
-          "date": "2026-10-19",
-          "high_c": 32,
-          "low_c": 27,
-          "condition": "Light showers",
-          "symbol": "lightrainshowers_day",
-          "precip_mm": 0.9
-        },
-        {
-          "date": "2026-10-20",
-          "high_c": 33,
-          "low_c": 24,
-          "condition": "Light showers",
-          "symbol": "lightrainshowers_day",
-          "precip_mm": 2.5
-        },
-        {
-          "date": "2026-10-21",
-          "high_c": 33,
-          "low_c": 24,
-          "condition": "Light showers",
-          "symbol": "lightrainshowers_day",
-          "precip_mm": 0.8
-        },
-        {
-          "date": "2026-10-22",
-          "high_c": 32,
-          "low_c": 25,
-          "condition": "Showers",
-          "symbol": "rainshowers_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-23",
-          "high_c": 33,
-          "low_c": 24,
-          "condition": "Light rain",
-          "symbol": "lightrain",
-          "precip_mm": 3.0
-        },
-        {
-          "date": "2026-10-24",
-          "high_c": 28,
-          "low_c": 24,
-          "condition": "Rain",
-          "symbol": "rain",
-          "precip_mm": 6.0
-        },
-        {
-          "date": "2026-10-25",
-          "high_c": 31,
-          "low_c": 24,
-          "condition": "Light rain",
-          "symbol": "lightrain",
-          "precip_mm": 4.4
-        },
-        {
-          "date": "2026-10-26",
-          "high_c": 30,
-          "low_c": 25,
-          "condition": "Rain",
-          "symbol": "rain",
-          "precip_mm": 7.4
-        },
-        {
-          "date": "2026-10-27",
-          "high_c": 26,
-          "low_c": 24,
-          "condition": "Heavy rain",
-          "symbol": "heavyrain",
-          "precip_mm": 16.6
-        },
-        {
-          "date": "2026-10-28",
-          "high_c": 27,
-          "low_c": 23,
-          "condition": "Heavy rain",
-          "symbol": "heavyrain",
-          "precip_mm": 18.8
-        }
-      ],
-      "today": {
-        "date": "2026-10-19",
-        "high_c": 32,
-        "low_c": 27,
-        "condition": "Light showers",
-        "symbol": "lightrainshowers_day",
-        "precip_mm": 0.9
-      }
-    },
-    {
-      "id": "taipei",
-      "name": "Taipei",
-      "country": "Taiwan",
-      "lat": 25.033,
-      "lon": 121.5654,
-      "tz": "Asia/Taipei",
-      "ww": false,
-      "temp_c": 32,
-      "condition": "Clear",
-      "symbol": "clearsky_day",
-      "days": [
-        {
-          "date": "2026-10-19",
-          "high_c": 33,
-          "low_c": 26,
-          "condition": "Fair",
-          "symbol": "fair_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-20",
-          "high_c": 33,
-          "low_c": 23,
-          "condition": "Partly cloudy",
-          "symbol": "partlycloudy_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-21",
-          "high_c": 30,
-          "low_c": 22,
-          "condition": "Rain",
-          "symbol": "rain",
-          "precip_mm": 5.4
-        },
-        {
-          "date": "2026-10-22",
-          "high_c": 22,
-          "low_c": 22,
-          "condition": "Heavy rain",
-          "symbol": "heavyrain",
-          "precip_mm": 1.2
-        },
-        {
-          "date": "2026-10-23",
-          "high_c": 26,
-          "low_c": 23,
-          "condition": "Heavy rain",
-          "symbol": "heavyrain",
-          "precip_mm": 205.0
-        },
-        {
-          "date": "2026-10-24",
-          "high_c": 27,
-          "low_c": 26,
-          "condition": "Rain",
-          "symbol": "rain",
-          "precip_mm": 73.2
-        },
-        {
-          "date": "2026-10-25",
-          "high_c": 32,
-          "low_c": 26,
-          "condition": "Partly cloudy",
-          "symbol": "partlycloudy_day",
-          "precip_mm": 0.4
-        },
-        {
-          "date": "2026-10-26",
-          "high_c": 27,
-          "low_c": 25,
-          "condition": "Showers",
-          "symbol": "rainshowers_day",
-          "precip_mm": 3.9
-        },
-        {
-          "date": "2026-10-27",
-          "high_c": 28,
-          "low_c": 23,
-          "condition": "Light showers",
-          "symbol": "lightrainshowers_day",
-          "precip_mm": 2.3
-        },
-        {
-          "date": "2026-10-28",
-          "high_c": 26,
-          "low_c": 22,
-          "condition": "Rain",
-          "symbol": "rain",
-          "precip_mm": 7.1
-        }
-      ],
-      "today": {
-        "date": "2026-10-19",
-        "high_c": 33,
-        "low_c": 26,
-        "condition": "Fair",
-        "symbol": "fair_day",
-        "precip_mm": 0.0
-      }
-    },
-    {
-      "id": "seoul",
-      "name": "Seoul",
-      "country": "South Korea",
-      "lat": 37.5665,
-      "lon": 126.978,
-      "tz": "Asia/Seoul",
-      "ww": false,
-      "temp_c": 15,
-      "condition": "Cloudy",
-      "symbol": "cloudy",
-      "days": [
-        {
-          "date": "2026-10-19",
-          "high_c": 16,
-          "low_c": 12,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-20",
-          "high_c": 20,
-          "low_c": 9,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
-          "precip_mm": 0.4
-        },
-        {
-          "date": "2026-10-21",
-          "high_c": 15,
-          "low_c": 6,
-          "condition": "Light showers",
-          "symbol": "lightrainshowers_day",
-          "precip_mm": 0.7
-        },
-        {
-          "date": "2026-10-22",
-          "high_c": 13,
-          "low_c": 5,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-23",
-          "high_c": 17,
-          "low_c": 5,
-          "condition": "Partly cloudy",
-          "symbol": "partlycloudy_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-24",
-          "high_c": 19,
-          "low_c": 10,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-25",
-          "high_c": 22,
-          "low_c": 11,
-          "condition": "Light rain",
-          "symbol": "lightrain",
-          "precip_mm": 16.3
-        },
-        {
-          "date": "2026-10-26",
-          "high_c": 18,
-          "low_c": 16,
-          "condition": "Rain",
-          "symbol": "rain",
-          "precip_mm": 24.5
-        },
-        {
-          "date": "2026-10-27",
-          "high_c": 18,
-          "low_c": 10,
-          "condition": "Clear",
-          "symbol": "clearsky_day",
-          "precip_mm": 0.0
-        },
-        {
-          "date": "2026-10-28",
-          "high_c": 10,
-          "low_c": 2,
-          "condition": "Partly cloudy",
-          "symbol": "partlycloudy_day",
-          "precip_mm": 0.0
-        }
-      ],
-      "today": {
-        "date": "2026-10-19",
-        "high_c": 16,
-        "low_c": 12,
-        "condition": "Cloudy",
-        "symbol": "cloudy",
         "precip_mm": 0.0
       }
     },
@@ -1582,303 +1600,623 @@
       "lat": 13.7563,
       "lon": 100.5018,
       "tz": "Asia/Bangkok",
-      "ww": false,
-      "temp_c": 29,
-      "condition": "Cloudy",
-      "symbol": "cloudy",
+      "ww": true,
+      "temp_c": 34,
+      "condition": "Light showers",
+      "symbol": "lightrainshowers_day",
       "days": [
         {
-          "date": "2026-10-19",
-          "high_c": 31,
+          "date": "2026-11-02",
+          "high_c": 34,
           "low_c": 26,
-          "condition": "Light rain",
-          "symbol": "lightrain",
-          "precip_mm": 3.2
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 1.4
         },
         {
-          "date": "2026-10-20",
-          "high_c": 31,
-          "low_c": 23,
-          "condition": "Showers",
-          "symbol": "rainshowers_day",
-          "precip_mm": 15.7
-        },
-        {
-          "date": "2026-10-21",
-          "high_c": 31,
+          "date": "2026-11-03",
+          "high_c": 33,
           "low_c": 24,
-          "condition": "Heavy showers",
-          "symbol": "heavyrainshowers_day",
-          "precip_mm": 8.7
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 3.9
         },
         {
-          "date": "2026-10-22",
+          "date": "2026-11-04",
           "high_c": 31,
-          "low_c": 24,
-          "condition": "Showers",
-          "symbol": "rainshowers_day",
-          "precip_mm": 9.3
+          "low_c": 25,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 3.7
         },
         {
-          "date": "2026-10-23",
+          "date": "2026-11-05",
           "high_c": 32,
           "low_c": 25,
           "condition": "Rain",
           "symbol": "rain",
-          "precip_mm": 7.6
+          "precip_mm": 9.0
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-11-06",
+          "high_c": 31,
+          "low_c": 24,
+          "condition": "Light rain",
+          "symbol": "lightrain",
+          "precip_mm": 4.6
+        },
+        {
+          "date": "2026-11-07",
           "high_c": 30,
           "low_c": 25,
           "condition": "Light showers",
           "symbol": "lightrainshowers_day",
-          "precip_mm": 1.6
+          "precip_mm": 2.9
         },
         {
-          "date": "2026-10-25",
-          "high_c": 30,
-          "low_c": 24,
-          "condition": "Light rain",
-          "symbol": "lightrain",
-          "precip_mm": 4.9
-        },
-        {
-          "date": "2026-10-26",
-          "high_c": 29,
-          "low_c": 26,
-          "condition": "Light rain",
-          "symbol": "lightrain",
-          "precip_mm": 3.5
-        },
-        {
-          "date": "2026-10-27",
-          "high_c": 30,
-          "low_c": 25,
-          "condition": "Rain",
-          "symbol": "rain",
-          "precip_mm": 7.3
-        },
-        {
-          "date": "2026-10-28",
+          "date": "2026-11-08",
           "high_c": 31,
-          "low_c": 24,
-          "condition": "Partly cloudy",
-          "symbol": "partlycloudy_day",
-          "precip_mm": 1.6
+          "low_c": 25,
+          "condition": "Light rain",
+          "symbol": "lightrain",
+          "precip_mm": 4.4
         }
       ],
       "today": {
-        "date": "2026-10-19",
-        "high_c": 31,
+        "date": "2026-11-02",
+        "high_c": 34,
         "low_c": 26,
-        "condition": "Light rain",
-        "symbol": "lightrain",
-        "precip_mm": 3.2
+        "condition": "Light showers",
+        "symbol": "lightrainshowers_day",
+        "precip_mm": 1.4
       }
     },
     {
-      "id": "paris",
-      "name": "Paris",
-      "country": "France",
-      "lat": 48.8566,
-      "lon": 2.3522,
-      "tz": "Europe/Paris",
-      "ww": false,
-      "temp_c": 5,
-      "condition": "Partly cloudy",
-      "symbol": "partlycloudy_night",
+      "id": "singapore",
+      "name": "Singapore",
+      "country": "Singapore",
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "tz": "Asia/Singapore",
+      "ww": true,
+      "temp_c": 32,
+      "condition": "Showers",
+      "symbol": "rainshowers_day",
       "days": [
         {
-          "date": "2026-10-19",
-          "high_c": 15,
-          "low_c": 4,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
-          "precip_mm": 0.0
+          "date": "2026-11-02",
+          "high_c": 32,
+          "low_c": 23,
+          "condition": "Showers",
+          "symbol": "rainshowers_day",
+          "precip_mm": 9.7
         },
         {
-          "date": "2026-10-20",
-          "high_c": 15,
-          "low_c": 12,
-          "condition": "Light rain",
-          "symbol": "lightrain",
-          "precip_mm": 4.7
-        },
-        {
-          "date": "2026-10-21",
-          "high_c": 13,
-          "low_c": 8,
+          "date": "2026-11-03",
+          "high_c": 31,
+          "low_c": 23,
           "condition": "Rain",
           "symbol": "rain",
-          "precip_mm": 1.3
+          "precip_mm": 11.8
         },
         {
-          "date": "2026-10-22",
-          "high_c": 14,
-          "low_c": 9,
-          "condition": "Light rain",
-          "symbol": "lightrain",
-          "precip_mm": 5.6
+          "date": "2026-11-04",
+          "high_c": 30,
+          "low_c": 23,
+          "condition": "Heavy rain",
+          "symbol": "heavyrain",
+          "precip_mm": 14.2
         },
         {
-          "date": "2026-10-23",
-          "high_c": 13,
-          "low_c": 10,
-          "condition": "Light showers",
-          "symbol": "lightrainshowers_day",
-          "precip_mm": 2.3
+          "date": "2026-11-05",
+          "high_c": 27,
+          "low_c": 23,
+          "condition": "Rain",
+          "symbol": "rain",
+          "precip_mm": 10.9
         },
         {
-          "date": "2026-10-24",
-          "high_c": 13,
-          "low_c": 7,
+          "date": "2026-11-06",
+          "high_c": 29,
+          "low_c": 23,
+          "condition": "Rain",
+          "symbol": "rain",
+          "precip_mm": 10.1
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 26,
+          "low_c": 23,
+          "condition": "Rain",
+          "symbol": "rain",
+          "precip_mm": 6.8
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 28,
+          "low_c": 23,
           "condition": "Rain",
           "symbol": "rain",
           "precip_mm": 13.7
-        },
+        }
+      ],
+      "today": {
+        "date": "2026-11-02",
+        "high_c": 32,
+        "low_c": 23,
+        "condition": "Showers",
+        "symbol": "rainshowers_day",
+        "precip_mm": 9.7
+      }
+    },
+    {
+      "id": "beijing",
+      "name": "Beijing",
+      "country": "China",
+      "lat": 39.9042,
+      "lon": 116.4074,
+      "tz": "Asia/Shanghai",
+      "ww": true,
+      "temp_c": 16,
+      "condition": "Clear",
+      "symbol": "clearsky_day",
+      "days": [
         {
-          "date": "2026-10-25",
+          "date": "2026-11-02",
           "high_c": 16,
-          "low_c": 11,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
-          "precip_mm": 1.7
+          "low_c": 4,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
         },
         {
-          "date": "2026-10-26",
-          "high_c": 18,
-          "low_c": 15,
+          "date": "2026-11-03",
+          "high_c": 16,
+          "low_c": 5,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 12,
+          "low_c": 5,
           "condition": "Partly cloudy",
           "symbol": "partlycloudy_day",
-          "precip_mm": 0.3
+          "precip_mm": 0.1
         },
         {
-          "date": "2026-10-27",
-          "high_c": 16,
-          "low_c": 13,
-          "condition": "Light showers",
-          "symbol": "lightrainshowers_day",
-          "precip_mm": 0.9
+          "date": "2026-11-05",
+          "high_c": 17,
+          "low_c": 5,
+          "condition": "Fair",
+          "symbol": "fair_day",
+          "precip_mm": 0.0
         },
         {
-          "date": "2026-10-28",
-          "high_c": 15,
-          "low_c": 9,
+          "date": "2026-11-06",
+          "high_c": 9,
+          "low_c": 4,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 6,
+          "low_c": 0,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 10,
+          "low_c": 1,
           "condition": "Clear",
           "symbol": "clearsky_day",
           "precip_mm": 0.0
         }
       ],
       "today": {
-        "date": "2026-10-19",
-        "high_c": 15,
+        "date": "2026-11-02",
+        "high_c": 16,
         "low_c": 4,
-        "condition": "Cloudy",
-        "symbol": "cloudy",
+        "condition": "Clear",
+        "symbol": "clearsky_day",
         "precip_mm": 0.0
       }
     },
     {
-      "id": "berlin",
-      "name": "Berlin",
-      "country": "Germany",
-      "lat": 52.52,
-      "lon": 13.405,
-      "tz": "Europe/Berlin",
+      "id": "shanghai",
+      "name": "Shanghai",
+      "country": "China",
+      "lat": 31.2304,
+      "lon": 121.4737,
+      "tz": "Asia/Shanghai",
+      "ww": true,
+      "temp_c": 20,
+      "condition": "Clear",
+      "symbol": "clearsky_day",
+      "days": [
+        {
+          "date": "2026-11-02",
+          "high_c": 20,
+          "low_c": 14,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 1.6
+        },
+        {
+          "date": "2026-11-03",
+          "high_c": 20,
+          "low_c": 13,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 20,
+          "low_c": 17,
+          "condition": "Heavy rain",
+          "symbol": "heavyrain",
+          "precip_mm": 25.1
+        },
+        {
+          "date": "2026-11-05",
+          "high_c": 20,
+          "low_c": 16,
+          "condition": "Fair",
+          "symbol": "fair_day",
+          "precip_mm": 0.2
+        },
+        {
+          "date": "2026-11-06",
+          "high_c": 21,
+          "low_c": 14,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 15,
+          "low_c": 14,
+          "condition": "Light rain",
+          "symbol": "lightrain",
+          "precip_mm": 9.2
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 16,
+          "low_c": 13,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 0.1
+        }
+      ],
+      "today": {
+        "date": "2026-11-02",
+        "high_c": 20,
+        "low_c": 14,
+        "condition": "Clear",
+        "symbol": "clearsky_day",
+        "precip_mm": 1.6
+      }
+    },
+    {
+      "id": "vancouver",
+      "name": "Vancouver",
+      "country": "Canada",
+      "lat": 49.2827,
+      "lon": -123.1207,
+      "tz": "America/Vancouver",
       "ww": false,
-      "temp_c": 8,
+      "temp_c": 6,
       "condition": "Partly cloudy",
       "symbol": "partlycloudy_night",
       "days": [
         {
-          "date": "2026-10-19",
-          "high_c": 10,
+          "date": "2026-10-29",
+          "high_c": 6,
+          "low_c": 6,
+          "condition": "–",
+          "symbol": null,
+          "precip_mm": 1.0
+        },
+        {
+          "date": "2026-10-30",
+          "high_c": 8,
+          "low_c": 5,
+          "condition": "Rain",
+          "symbol": "rain",
+          "precip_mm": 3.2
+        },
+        {
+          "date": "2026-10-31",
+          "high_c": 11,
           "low_c": 5,
           "condition": "Partly cloudy",
           "symbol": "partlycloudy_day",
-          "precip_mm": 0.0
+          "precip_mm": 1.6
         },
         {
-          "date": "2026-10-20",
+          "date": "2026-11-01",
           "high_c": 10,
-          "low_c": 6,
+          "low_c": 5,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-02",
+          "high_c": 11,
+          "low_c": 7,
           "condition": "Cloudy",
           "symbol": "cloudy",
           "precip_mm": 0.0
         },
         {
-          "date": "2026-10-21",
+          "date": "2026-11-03",
+          "high_c": 13,
+          "low_c": 10,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-04",
           "high_c": 14,
-          "low_c": 8,
-          "condition": "Rain",
-          "symbol": "rain",
-          "precip_mm": 2.0
-        },
-        {
-          "date": "2026-10-22",
-          "high_c": 12,
-          "low_c": 9,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
-          "precip_mm": 5.5
-        },
-        {
-          "date": "2026-10-23",
-          "high_c": 12,
-          "low_c": 7,
-          "condition": "Light rain",
-          "symbol": "lightrain",
-          "precip_mm": 0.8
-        },
-        {
-          "date": "2026-10-24",
-          "high_c": 11,
-          "low_c": 6,
+          "low_c": 10,
           "condition": "Partly cloudy",
           "symbol": "partlycloudy_day",
           "precip_mm": 0.0
         },
         {
-          "date": "2026-10-25",
-          "high_c": 12,
-          "low_c": 4,
-          "condition": "Light showers",
-          "symbol": "lightrainshowers_day",
-          "precip_mm": 2.8
-        },
-        {
-          "date": "2026-10-26",
-          "high_c": 17,
-          "low_c": 7,
+          "date": "2026-11-05",
+          "high_c": 14,
+          "low_c": 11,
           "condition": "Light rain",
           "symbol": "lightrain",
-          "precip_mm": 5.8
+          "precip_mm": 5.5
         },
         {
-          "date": "2026-10-27",
-          "high_c": 19,
-          "low_c": 14,
+          "date": "2026-11-06",
+          "high_c": 11,
+          "low_c": 10,
+          "condition": "Light rain",
+          "symbol": "lightrain",
+          "precip_mm": 4.4
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 13,
+          "low_c": 10,
+          "condition": "Rain",
+          "symbol": "rain",
+          "precip_mm": 28.4
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 11,
+          "low_c": 11,
+          "condition": "–",
+          "symbol": null,
+          "precip_mm": null
+        }
+      ],
+      "today": {
+        "date": "2026-10-29",
+        "high_c": 6,
+        "low_c": 6,
+        "condition": "–",
+        "symbol": null,
+        "precip_mm": 1.0
+      }
+    },
+    {
+      "id": "miami",
+      "name": "Miami",
+      "country": "USA",
+      "lat": 25.7617,
+      "lon": -80.1918,
+      "tz": "America/New_York",
+      "ww": false,
+      "temp_c": 25,
+      "condition": "Fair",
+      "symbol": "fair_night",
+      "days": [
+        {
+          "date": "2026-10-30",
+          "high_c": 28,
+          "low_c": 23,
+          "condition": "Showers",
+          "symbol": "rainshowers_day",
+          "precip_mm": 4.3
+        },
+        {
+          "date": "2026-10-31",
+          "high_c": 28,
+          "low_c": 23,
+          "condition": "Showers",
+          "symbol": "rainshowers_day",
+          "precip_mm": 13.1
+        },
+        {
+          "date": "2026-11-01",
+          "high_c": 26,
+          "low_c": 23,
+          "condition": "Heavy rain",
+          "symbol": "heavyrain",
+          "precip_mm": 15.1
+        },
+        {
+          "date": "2026-11-02",
+          "high_c": 24,
+          "low_c": 22,
+          "condition": "Heavy rain",
+          "symbol": "heavyrain",
+          "precip_mm": 45.9
+        },
+        {
+          "date": "2026-11-03",
+          "high_c": 28,
+          "low_c": 22,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 3.6
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 27,
+          "low_c": 23,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 3.4
+        },
+        {
+          "date": "2026-11-05",
+          "high_c": 29,
+          "low_c": 22,
+          "condition": "Fair",
+          "symbol": "fair_day",
+          "precip_mm": 0.2
+        },
+        {
+          "date": "2026-11-06",
+          "high_c": 26,
+          "low_c": 19,
           "condition": "Partly cloudy",
           "symbol": "partlycloudy_day",
           "precip_mm": 0.1
         },
         {
-          "date": "2026-10-28",
-          "high_c": 14,
-          "low_c": 12,
-          "condition": "Cloudy",
-          "symbol": "cloudy",
+          "date": "2026-11-07",
+          "high_c": 26,
+          "low_c": 18,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 20,
+          "low_c": 19,
+          "condition": "–",
+          "symbol": null,
           "precip_mm": 0.0
         }
       ],
       "today": {
-        "date": "2026-10-19",
-        "high_c": 10,
-        "low_c": 5,
-        "condition": "Partly cloudy",
-        "symbol": "partlycloudy_day",
-        "precip_mm": 0.0
+        "date": "2026-10-30",
+        "high_c": 28,
+        "low_c": 23,
+        "condition": "Showers",
+        "symbol": "rainshowers_day",
+        "precip_mm": 4.3
+      }
+    },
+    {
+      "id": "buenosaires",
+      "name": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6037,
+      "lon": -58.3816,
+      "tz": "America/Argentina/Buenos_Aires",
+      "ww": false,
+      "temp_c": 16,
+      "condition": "Light showers",
+      "symbol": "lightrainshowers_night",
+      "days": [
+        {
+          "date": "2026-10-30",
+          "high_c": 20,
+          "low_c": 15,
+          "condition": "Showers",
+          "symbol": "rainshowers_day",
+          "precip_mm": 14.0
+        },
+        {
+          "date": "2026-10-31",
+          "high_c": 21,
+          "low_c": 13,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-01",
+          "high_c": 22,
+          "low_c": 16,
+          "condition": "Rain",
+          "symbol": "rain",
+          "precip_mm": 3.8
+        },
+        {
+          "date": "2026-11-02",
+          "high_c": 24,
+          "low_c": 17,
+          "condition": "Partly cloudy",
+          "symbol": "partlycloudy_day",
+          "precip_mm": 0.1
+        },
+        {
+          "date": "2026-11-03",
+          "high_c": 20,
+          "low_c": 17,
+          "condition": "Cloudy",
+          "symbol": "cloudy",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-04",
+          "high_c": 23,
+          "low_c": 18,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 1.4
+        },
+        {
+          "date": "2026-11-05",
+          "high_c": 25,
+          "low_c": 15,
+          "condition": "Clear",
+          "symbol": "clearsky_day",
+          "precip_mm": 0.0
+        },
+        {
+          "date": "2026-11-06",
+          "high_c": 20,
+          "low_c": 16,
+          "condition": "Light showers",
+          "symbol": "lightrainshowers_day",
+          "precip_mm": 4.4
+        },
+        {
+          "date": "2026-11-07",
+          "high_c": 20,
+          "low_c": 13,
+          "condition": "Fair",
+          "symbol": "fair_day",
+          "precip_mm": 0.1
+        },
+        {
+          "date": "2026-11-08",
+          "high_c": 16,
+          "low_c": 13,
+          "condition": "–",
+          "symbol": null,
+          "precip_mm": 0.0
+        }
+      ],
+      "today": {
+        "date": "2026-10-30",
+        "high_c": 20,
+        "low_c": 15,
+        "condition": "Showers",
+        "symbol": "rainshowers_day",
+        "precip_mm": 14.0
       }
     }
   ]

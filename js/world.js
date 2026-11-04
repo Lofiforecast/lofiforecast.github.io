@@ -33,8 +33,10 @@
       var ww = (data.ww_ids || []).length
         ? data.cities.filter(function (c) { return data.ww_ids.indexOf(c.id) >= 0; })
         : data.cities.filter(function (c) { return c.ww; });
-      if (!ww.length) ww = data.cities.slice(0, 12);
+      if (!ww.length) ww = data.cities.slice(0, 24);
       grid.innerHTML = ww.map(card).join('');
+      var citiesH = document.getElementById('cities-h');
+      if (citiesH) citiesH.innerHTML = ww.length + ' cities &middot; now';
       if (data.week_label && week) week.textContent = 'Week of ' + data.week_label;
       if (data.youtube && yt) yt.href = data.youtube;
       if (data.video && video) {
